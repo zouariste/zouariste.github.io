@@ -2594,7 +2594,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   transition:height .5s
  }
  .main-navigation.extended .navigation-extendable {
-  height:300px
+  height:200px
  }
  .site-main {
   margin-left:0
