@@ -1946,7 +1946,7 @@ table {
  color:#998
 }
 .highlight .err {
- color:#a61717;
+ color:#0a66c2;
  background-color:#e3d2d2
 }
 .highlight .cm {
@@ -2136,15 +2136,15 @@ h4 {
 }
 ::-moz-selection {
  color:#fff;
- background:#a51a1a
+ background:#0a66c2
 }
 ::selection {
  color:#fff;
- background:#a51a1a
+ background:#0a66c2
 }
 .red,
 a {
- color:#BB1E1E
+ color:#0a66c2
 }
 h1 {
  font-size:36px
@@ -2305,8 +2305,8 @@ blockquote {
  margin-right:.2em
 }
 .button.button-red {
- background-color:#AF2222;
- border:1px solid #9a1e1e;
+ background-color:#0a66c2;
+ border:1px solid #0a66c2;
  color:#fff;
  padding:.7em 1.2em;
  font-weight:400
@@ -2346,7 +2346,7 @@ body {
  font-size:14px;
  color:#fff;
  text-align:left;
- background-color:rgba(145,13,13,.8)
+ background-color:#0a66c293
 }
 @media screen and (max-width:1000px) {
  .site-sidebar {
@@ -2687,7 +2687,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   display:block;
   width:5px;
   height:5px;
-  background-color:rgba(187,30,30,.8)
+  background-color: #0a66c2
  }
  .timeline_element:first-child .timeline_element-date {
   padding-top:0;
@@ -2819,7 +2819,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 .tech-tags a,
 .tech-tags a:hover {
- background-color:rgba(175,34,34,.8)
+ background-color:#0c447c93
 }
 @media screen and (max-width:767px) {
  .home-section {
@@ -2908,7 +2908,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  color:inherit
 }
 .portfolio-timeline .project-link:hover {
- color:#BB1E1E
+ color:#0a66c2
 }
 .portfolio-timeline .project-text {
  width:50%;
@@ -3070,7 +3070,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  }
 }
 .feature {
- color:#BB1E1E;
+ color:#0a66c2;
  font-weight:300;
  text-align:center;
  padding:0 10px
@@ -3098,7 +3098,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  font-size:36px;
  line-height:1;
  margin-bottom:10px;
- color:#BB1E1E;
+ color:#0a66c2;
  text-transform:none
 }
 .post .post-meta {
@@ -3121,7 +3121,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
  font-style:italic
 }
 .post .comment-link {
- color:#BB1E1E
+ color:#0a66c2
 }
 .timeline.talks-timeline .talk-title {
  margin-top:-.25em
@@ -3196,7 +3196,7 @@ body.cv {
  font-size:30px;
  line-height:1;
  margin-bottom:5px;
- color:#BB1E1E
+ color:#0a66c2
 }
 .cv-header-subname {
  display:block;
@@ -3252,7 +3252,7 @@ body.cv {
  margin-top:1.5em
 }
 .cv-section-title {
- color:#BB1E1E;
+ color:#0a66c2;
  font-size:24px;
  font-weight:300;
  padding-left:21.5%;
