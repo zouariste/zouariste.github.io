@@ -19,6 +19,8 @@
   <meta property="og:url" content="../portfolio/index">
   <meta property="og:description"
     content="Here you can find the list and brief descriptions of the projects I have recently completed.">
+    <meta name="theme-color" content="#0a66c2" />
+  <link rel="shortcut icon" type="image/png" href="../images/avatar.png"/>
 </head>
 
 <body class="parent-portfolio">
@@ -46,7 +48,8 @@
             <a rel="me" href="https://github.com/zouariste" class="button button-icon" title="github: zouariste">
               <i class="fa fa-github-square"></i>
             </a>
-            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon" title="stackoverflow: mohamed-zouari">
+            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon"
+              title="stackoverflow: mohamed-zouari">
               <i class="fa fa-stack-overflow"></i>
             </a>
           </div>
@@ -56,13 +59,17 @@
         </div>
         <div class="navigation-extendable">
           <ul>
+            <li class=""><a href="../summary/index.html">Summary</a></li>
             <li class=""><a href="../portfolio/index.html">Portfolio</a></li>
-            <li class="current"><a href="">Work Experience</a></li>
-            <li class=""><a href="../contact/index.html">Contact me</a></li>
+            <li class=""><a href="">Work Experience</a></li>
           </ul>
           <ul>
-            <li class=""><a href="../cv/Mohameds-Resume.pdf">My Resume</a></li>
-            <!-- <li class=""><a href="../testimonials/index.html">Testimonials</a></li> -->
+            <li class=""><a href="../references/index.html">References</a></li>
+            <li class=""><a href="../externalactivities/index.html">External Activities</a></li>
+          </ul>
+          <ul>
+            <li class=""><a href="../cv/Mohameds-Resume.pdf" target="_blank">My Resume</a></li>
+            <li class=""><a href="../contact/index.html">Contact me</a></li>
           </ul>
         </div>
       </nav>
@@ -78,9 +85,10 @@
             <a rel="me" href="https://github.com/zouariste" class="button button-icon" title="github: zouariste">
               <i class="fa fa-github-square"></i>
             </a>
-            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon" title="stackoverflow: mohamed-zouari">
+            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon"
+              title="stackoverflow: mohamed-zouari">
               <i class="fa fa-stack-overflow"></i>
-            </a>    
+            </a>
           </div>
         </div>
       </div>
@@ -88,7 +96,7 @@
   </aside>
   <div class="site-main">
     <div class="site-main-inner">
-      <div class="main-section portfolio-section">
+      <div align="justify" class="main-section portfolio-section">
         <h1 class="main-title">Work Experience</h1>
         <p>See my work experince details below.</p>
         <div class="timeline portfolio-timeline">
@@ -101,12 +109,38 @@
               <div class="timeline_element-contents">
                 <div class="project-text">
                   <a href="https://www.infor.com/" class="project-link">
-                    <div class="project-title">Software Engineer, Associate</div>
+                    <div class="project-title">Software Development Engineer, Associate</div>
                     <div class="project-subtitle">INFOR</div>
                   </a>
                   <div class="project-description">
-                    <p><strong>Infor Nexus DevOps team</strong></p>
-
+                    <p><strong>Contributed in the design and implementation of a (Python) CLI utility to manage end generate automatically deployment workflows as a layer on top of an internal deployment tool.
+                        (Currently the maintainer).
+                      </strong></p>
+                    <ul>
+                      <li>Designed with a team of experienced cloud developers the new concept of workflow as collection
+                        of deployments and test actions associated with a specific AWS environment.
+                      </li>
+                      <li>Created configuration files, an abstraction of deployment action, the CLI uses those template
+                        files to generate the deployment workflow.
+                      </li>
+                      <li>Introduced the use of (boto3), the AWS python SDK, to interact with AWS environments.
+                      </li>
+                      <li><b>Results: </b>Enabled developers to focus on developing and testing rather than deployment details, configured to be done automatically. The team reached a more efficient working cycle.</li>
+                    </ul>
+                    <p><strong>Contributed in the enhancement and the creation of new features of an internal platform that manages cloud environments : 
+                      </strong></p>
+                      <ul>
+                        <li>Updated the API layer (Python Pyramid) and the task processing side (Celery, RabbitMQ, SQLAlchemy).</li>
+                        <li>Updated and created UIs views (JavaScript, ReactJs, Ant design).</li>
+                        <li>Packaged the application using Nix and deployed it using Infor tools.</li>
+                      </ul>
+                      <p><strong>Led a prototype with Infor Nexus Development Team to move the platform mentioned above to be more serverless</strong></p>
+                      <ul>
+                        <li>Leading a team of 2 developers under the guidance of a vice-president, a manager and a principle site reliability engineer; tracking progress, reviewing pull requests and making demos.</li>
+                        <li>Developed and migrated the API layer on top of (AWS API Gateway).</li>
+                        <li>Configured (AWS CloudWatch) and (AWS CloudTrail) as logging and monitoring tools for the APIs calls.</li>
+                        <li><b>Results: </b>Achieved a  more resilient, available and scalable version according to performances metrics.</li>
+                      </ul>
                   </div>
 
                 </div>
@@ -115,49 +149,54 @@
               </div>
             </li>
             <li class="timeline_element project">
-                <div class="timeline_element-date">
-                  <time class="timeline_element-date-text">Feb 2020 - <br>Jul 2020</time>
-                </div>
-  
-                <div class="timeline_element-contents">
-                  <div class="project-text">
-                    <a href="https://integrationobjects.com/" class="project-link">
-                      <div class="project-title">Software and DevOps Engineer Intern</div>
-                      <div class="project-subtitle">INTEGRATION OBJECTS</div>
-                    </a>
-                    <div class="project-description">
-                      <p><strong>Design and implementation of a Management & Monitoring control system</strong></p>
-                      <ul>
-                        <li>Design and implementation of a monitoring microservice,to collect and manage remote exposed metrics.</li>
-                        <li>The use and the application of the microservice architecture.</li>
-                        <li>Design, conduct tests and proof of concepts to validate the advantages of designed solutions.</li>
-                        <li>Creating an automated cluster installer to facilitate the setup of a multi-node and multi-machine deployment cluster.</li>
-                        <li>Setting rules to scale up or down running instances in interaction with collection jobs.</li>
-                      </ul>
-                    </div>
-                    <div class="project-technologies">
-                        <div class="technologies-title">Key words</div>
-                        <ul class="tech-tags">
-    
-                          <li><a href='https://docs.microsoft.com/en-us/dotnet/csharp/' rel='nofollow' target='_blank'>C#/.Net</a></li>
-    
-                          <li><a href='https://www.docker.com/' rel='nofollow' target='_blank'>Docker</a></li>
-    
-                          <li><a href='https://git-scm.com/' rel='nofollow' target='_blank'>Git</a></li>
-    
-                          <li><a href='https://www.elastic.co/fr/kibana' rel='nofollow' target='_blank'>Kibana</a></li>
-    
-                          <li><a href='https://kubernetes.io/' rel='nofollow' target='_blank'>Kubernetes</a></li>
+              <div class="timeline_element-date">
+                <time class="timeline_element-date-text">Feb 2020 - <br>Jul 2020</time>
+              </div>
 
-                          <li><a href='https://www.ansible.com/' rel='nofollow' target='_blank'>Ansible</a></li>
-    
-                        </ul>
-                      </div>
-  
+              <div class="timeline_element-contents">
+                <div class="project-text">
+                  <a href="https://integrationobjects.com/" class="project-link">
+                    <div class="project-title">Software Development Engineering Intern</div>
+                    <div class="project-subtitle">INTEGRATION OBJECTS</div>
+                  </a>
+                  <div class="project-description">
+                    <p><strong>Designed and implemented a monitoring and management (microservices) for a distributed
+                        and large-scale industrial IoT platform</strong></p>
+                    <ul>
+                      <li>Designed, conducted tests and proof of concepts to validate the advantages of designed
+                        solutions.</li>
+                      <li>Implemented a microservice to collect and manage remote exposed metrics for industrial
+                        distributed IoT devices, using scheduled collection job actions.</li>
+                      <li>Set rules to scale up or to scale down running instances on a private cluster.</li>
+                    </ul>
+                    <p><strong>Created an automated cluster installer (vagrant) to setup a multi-node and multi-machine
+                        cluster using (ansible).
+                      </strong></p>
                   </div>
-  
-  
+                  <div class="project-technologies">
+                    <div class="technologies-title">Key words</div>
+                    <ul class="tech-tags">
+
+                      <li><a href='https://docs.microsoft.com/en-us/dotnet/csharp/' rel='nofollow'
+                          target='_blank'>C#/.Net</a></li>
+
+                      <li><a href='https://www.docker.com/' rel='nofollow' target='_blank'>Docker</a></li>
+
+                      <li><a href='https://git-scm.com/' rel='nofollow' target='_blank'>Git</a></li>
+
+                      <li><a href='https://www.elastic.co/fr/kibana' rel='nofollow' target='_blank'>Kibana</a></li>
+
+                      <li><a href='https://kubernetes.io/' rel='nofollow' target='_blank'>Kubernetes</a></li>
+
+                      <li><a href='https://www.ansible.com/' rel='nofollow' target='_blank'>Ansible</a></li>
+
+                    </ul>
+                  </div>
+
                 </div>
+
+
+              </div>
             </li>
           </ul>
         </div>

@@ -19,6 +19,8 @@
   <meta property="og:url" content="../portfolio/index">
   <meta property="og:description"
     content="Here you can find the list and brief descriptions of the projects I have recently completed.">
+    <meta name="theme-color" content="#0a66c2" />
+  <link rel="shortcut icon" type="image/png" href="../images/avatar.png"/>
 </head>
 
 <body class="parent-portfolio">
@@ -46,7 +48,8 @@
             <a rel="me" href="https://github.com/zouariste" class="button button-icon" title="github: zouariste">
               <i class="fa fa-github-square"></i>
             </a>
-            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon" title="stackoverflow: mohamed-zouari">
+            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon"
+              title="stackoverflow: mohamed-zouari">
               <i class="fa fa-stack-overflow"></i>
             </a>
           </div>
@@ -56,13 +59,17 @@
         </div>
         <div class="navigation-extendable">
           <ul>
-            <li class="current"><a href="">Portfolio</a></li>
+            <li class=""><a href="../summary/index.html">Summary</a></li>
+            <li class=""><a href="">Portfolio</a></li>
             <li class=""><a href="../experience/index.html">Work Experience</a></li>
-            <li class=""><a href="../contact/index.html">Contact me</a></li>
           </ul>
           <ul>
-            <li class=""><a href="../cv/Mohameds-Resume.pdf">My Resume</a></li>
-            <!-- <li class=""><a href="../testimonials/index.html">Testimonials</a></li> -->
+            <li class=""><a href="../references/index.html">References</a></li>
+            <li class=""><a href="../externalactivities/index.html">External Activities</a></li>
+          </ul>
+          <ul>
+            <li class=""><a href="../cv/Mohameds-Resume.pdf" target="_blank">My Resume</a></li>
+            <li class=""><a href="../contact/index.html">Contact me</a></li>
           </ul>
         </div>
       </nav>
@@ -78,9 +85,10 @@
             <a rel="me" href="https://github.com/zouariste" class="button button-icon" title="github: zouariste">
               <i class="fa fa-github-square"></i>
             </a>
-            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon" title="stackoverflow: mohamed-zouari">
+            <a rel="me" href="https://stackoverflow.com/users/11797839/mohamed-zouari" class="button button-icon"
+              title="stackoverflow: mohamed-zouari">
               <i class="fa fa-stack-overflow"></i>
-            </a>    
+            </a>
           </div>
         </div>
       </div>
@@ -88,12 +96,70 @@
   </aside>
   <div class="site-main">
     <div class="site-main-inner">
-      <div class="main-section portfolio-section">
+      <div align="justify" class="main-section portfolio-section">
         <h1 class="main-title">Portfolio</h1>
         <p>See my works below. Unless explicitly stated otherwise, <strong>all their back-end and front-end parts
             were completely done by me.</strong></p>
         <div class="timeline portfolio-timeline">
           <ul>
+            <li class="timeline_element project">
+              <div class="timeline_element-date">
+                <time class="timeline_element-date-text">Mar 2021 -  <br>Currently Maintaining</time>
+              </div>
+
+              <div class="timeline_element-contents">
+                <div class="project-text">
+                  <a href="https://lemhaf.tn" class="project-link">
+                    <div class="project-title">Lemhaf</div>
+                    <div class="project-subtitle">The first Tunisian services sharing online platform</div>
+                  </a>
+                  <a href="https://lemhaf.tn"
+                    class="project-link"><b>=> Running !</b></a>
+                  <div class="project-description">
+                    <p><strong>Created a full-stack web platform, to allow users find out services they need and to allow service providers to connect with the community </strong></p>
+                    <ul>
+                      <li>Designed, and implemented a scalable and distributed architecture for a cross-platform online sharing website.</li>
+                      <li>Implemented a responsive front-end UI (ReactJS, Ant Design, Material Design).</li>
+                      <li>Deployed a back-end server (NodeJS, ExpressJs), connected with a non relational database (MongoDB).</li>
+                      <li>Used a distributed storage cloud solution to host media files.</li>
+                      <li>Implement an authentication and authorization component with email verification.</li>
+                      <li><b>Results: </b>Actually Running, with (860 users, and 1540 shared services).</li>
+                      <li><i>Actually working on adding a service recommendation engine based on services rating and user previous activity.</i></li>
+                    </ul>
+                  </div>
+                  <!-- <div class="project-technologies">
+                    <div class="technologies-title">Key words</div>
+                    <ul class="tech-tags">
+
+                      <li><a href='https://www.python.org/' rel='nofollow' target='_blank'>Python</a></li>
+
+                      <li><a href='https://kafka.apache.org/' rel='nofollow' target='_blank'>Kafka</a></li>
+
+                      <li><a href='https://en.wikipedia.org/wiki/Natural_language_processing' rel='nofollow'
+                          target='_blank'>NLP</a></li>
+
+                      <li><a href='https://www.elastic.co/' rel='nofollow' target='_blank'>Elasticsearch</a></li>
+
+                      <li><a href='https://databricks.com/glossary/streaming-analytics' rel='nofollow'
+                          target='_blank'>Data stream analysis</a></li>
+
+                      <li><a href='https://spring.io/projects/spring-cloud-dataflow' rel='nofollow'
+                          target='_blank'>Spring cloud data flow</a></li>
+
+                      <li><a href='https://www.docker.com/' rel='nofollow' target='_blank'>Docker</a></li>
+
+                      <li><a href='https://git-scm.com/' rel='nofollow' target='_blank'>Git</a></li>
+
+                      <li><a href='https://www.elastic.co/fr/kibana' rel='nofollow' target='_blank'>Kibana</a></li>
+
+                    </ul>
+                  </div> -->
+
+                </div>
+
+
+              </div>
+            </li>
             <li class="timeline_element project">
               <div class="timeline_element-date">
                 <time class="timeline_element-date-text">Feb 2020 - <br>Jul 2020</time>
@@ -105,43 +171,57 @@
                     <div class="project-title">EagleEye</div>
                     <div class="project-subtitle">Side project</div>
                   </a>
+                  <a href="https://drive.google.com/file/d/1SwxyTlDAiQJ1hsaczcYDsM7LHVSGCRU5/view"
+                    class="project-link"><b>=> Live Demo</b></a>
                   <div class="project-description">
-                    <p><strong>Development of a real-time reputation monitoring platform</strong></p>
+                    <p><strong>Designed and implemented a real time solution for reputation tracking and monitoring on
+                        (Twitter)</strong></p>
                     <ul>
-                      <li>Real-time twitter stream capture and sentiment analysis.</li>
-                      <li>Microservice architecture and cloud based platform.</li>
+                      <li>Designed and implemented a microservices solution.</li>
+                      <li>Implemented some back-end microservices using (Spring Cloud).</li>
+                      <li>Implemented sentiment analysis microservices and stream processing modules (python).</li>
+                      <li>Used Kafka as a message broker to handle stream processing between the different running
+                        containers.</li>
+                      <li>Used Elasticsearch as a search-engine to save the streams processing results for a realtime
+                        dashboard monitoring.</li>
+                      <li><b>Results: </b>Deployed the platform on an AWS EC2 instance and tested it 3h before Tunisian
+                        Presidential Election results announcements to get a comparison of the reputation of the two
+                        candidates near the real results. </li>
                     </ul>
                   </div>
                   <div class="project-technologies">
-                      <div class="technologies-title">Key words</div>
-                      <ul class="tech-tags">
-      
-                        <li><a href='https://www.python.org/' rel='nofollow' target='_blank'>Python</a></li>
-  
-                        <li><a href='https://kafka.apache.org/' rel='nofollow' target='_blank'>Kafka</a></li>
-  
-                        <li><a href='https://en.wikipedia.org/wiki/Natural_language_processing' rel='nofollow' target='_blank'>NLP</a></li>
+                    <div class="technologies-title">Key words</div>
+                    <ul class="tech-tags">
 
-                        <li><a href='https://www.elastic.co/' rel='nofollow' target='_blank'>Elasticsearch</a></li>
-  
-                        <li><a href='https://databricks.com/glossary/streaming-analytics' rel='nofollow' target='_blank'>Data stream analysis</a></li>
-  
-                        <li><a href='https://spring.io/projects/spring-cloud-dataflow' rel='nofollow' target='_blank'>Spring cloud data flow</a></li>
+                      <li><a href='https://www.python.org/' rel='nofollow' target='_blank'>Python</a></li>
 
-                        <li><a href='https://www.docker.com/' rel='nofollow' target='_blank'>Docker</a></li>
-  
-                        <li><a href='https://git-scm.com/' rel='nofollow' target='_blank'>Git</a></li>
-  
-                        <li><a href='https://www.elastic.co/fr/kibana' rel='nofollow' target='_blank'>Kibana</a></li>
-           
-                      </ul>
-                    </div>
+                      <li><a href='https://kafka.apache.org/' rel='nofollow' target='_blank'>Kafka</a></li>
+
+                      <li><a href='https://en.wikipedia.org/wiki/Natural_language_processing' rel='nofollow'
+                          target='_blank'>NLP</a></li>
+
+                      <li><a href='https://www.elastic.co/' rel='nofollow' target='_blank'>Elasticsearch</a></li>
+
+                      <li><a href='https://databricks.com/glossary/streaming-analytics' rel='nofollow'
+                          target='_blank'>Data stream analysis</a></li>
+
+                      <li><a href='https://spring.io/projects/spring-cloud-dataflow' rel='nofollow'
+                          target='_blank'>Spring cloud data flow</a></li>
+
+                      <li><a href='https://www.docker.com/' rel='nofollow' target='_blank'>Docker</a></li>
+
+                      <li><a href='https://git-scm.com/' rel='nofollow' target='_blank'>Git</a></li>
+
+                      <li><a href='https://www.elastic.co/fr/kibana' rel='nofollow' target='_blank'>Kibana</a></li>
+
+                    </ul>
+                  </div>
 
                 </div>
 
 
               </div>
-          </li>
+            </li>
             <li class="timeline_element project">
               <div class="timeline_element-date">
                 <time class="timeline_element-date-text">2019-Present</time>
