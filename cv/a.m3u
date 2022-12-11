@@ -1,13 +1,3 @@
-#EXTINF:-1 tvg-id="" tvg-name="2009 شوفلي حل" tvg-logo="https://zupimages.net/up/22/37/8w7e.jpg" group-title="TUNISIA",2009 شوفلي حل
-http://s.delta2022.xyz:8880/live/94541124/4878685925/43299.ts
-#EXTINF:-1 tvg-id="" tvg-name="2008 شوفلي حل" tvg-logo="https://zupimages.net/up/22/37/8w7e.jpg" group-title="TUNISIA",2008 شوفلي حل
-http://s.delta2022.xyz:8880/live/94541124/4878685925/43298.ts
-#EXTINF:-1 tvg-id="" tvg-name="2007 شوفلي حل" tvg-logo="https://zupimages.net/up/22/37/8w7e.jpg" group-title="TUNISIA",2007 شوفلي حل
-http://s.delta2022.xyz:8880/live/94541124/4878685925/43297.ts
-#EXTINF:-1 tvg-id="" tvg-name="2006 شوفلي حل" tvg-logo="https://zupimages.net/up/22/37/8w7e.jpg" group-title="TUNISIA",2006 شوفلي حل
-http://s.delta2022.xyz:8880/live/94541124/4878685925/43296.ts
-#EXTINF:-1 tvg-id="" tvg-name="2005 شوفلي حل" tvg-logo="https://zupimages.net/up/22/37/8w7e.jpg" group-title="TUNISIA",2005 شوفلي حل
-http://s.delta2022.xyz:8880/live/94541124/4878685925/43295.ts
 #EXTINF:-1 tvg-id="" tvg-name="Wataniya 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg/739px-Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg.png" group-title="TUNISIA",Wataniya 1
 http://s.delta2022.xyz:8880/live/94541124/4878685925/22160.ts
 #EXTINF:-1 tvg-id="" tvg-name="Wataniya 1 (TNT)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg/739px-Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg.png" group-title="TUNISIA",Wataniya 1 (TNT)
@@ -76,252 +66,26 @@ http://s.delta2022.xyz:8880/live/94541124/4878685925/22189.ts
 http://s.delta2022.xyz:8880/live/94541124/4878685925/22194.ts
 #EXTINF:-1 tvg-id="" tvg-name="Mosaique FM LIVE" tvg-logo="https://www.radio.fr/images/broadcasts/6e/ce/19391/1/c300.png" group-title="TUNISIA",Mosaique FM LIVE
 http://s.delta2022.xyz:8880/live/94541124/4878685925/44886.ts
-#EXTINF:-1 tvg-id="" tvg-name="Jawhara FM LIVE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Logo_Jawhara_FM.jpg" group-title="TUNISIA",Jawhara FM LIVE
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44885.ts
-#EXTINF:-1 tvg-id="" tvg-name="Radio Tunis Chaine Internationale LIVE" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu8XCuWR6NdQ8pj4N771Pf1f8hFF6IQtAsqKNzIV0g=s900-c-k-c0x00ffffff-no-rj" group-title="TUNISIA",Radio Tunis Chaine Internationale LIVE
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44888.ts
-#EXTINF:-1 tvg-id="" tvg-name="Radio Tatawouine LIVE" tvg-logo="https://play-lh.googleusercontent.com/pcPlJ2zTiiKvL2n5K7Jd6W2iKc9V6rJPlA_JMNjf3oharbXhcJxZyVFnipzQo3IB0ePU" group-title="TUNISIA",Radio Tatawouine LIVE
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44891.ts
-#EXTINF:-1 tvg-id="" tvg-name="Radio Sfax FM LIVE" tvg-logo="https://radiostunisie.com/wp-content/uploads/2020/07/radio-sfax.jpg" group-title="TUNISIA",Radio Sfax FM LIVE
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44889.ts
-#EXTINF:-1 tvg-id="" tvg-name="Radio Tunis Nationale Live LIVE" tvg-logo="https://radiostunisie.com/wp-content/uploads/2020/07/Radio_tunis-nationale.jpg" group-title="TUNISIA",Radio Tunis Nationale Live LIVE
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44887.ts
-#EXTINF:-1 tvg-id="" tvg-name="Radio Monastir LIVE" tvg-logo="https://radiostunisie.com/wp-content/uploads/2020/07/radio_monasir.jpg" group-title="TUNISIA",Radio Monastir LIVE
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44890.ts
-#EXTINF:-1 tvg-id="" tvg-name="Tunisia Nat 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg/739px-Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg.png" group-title="TUNISIA",Tunisia Nat 1
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44893.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Tunisia 1 FHD" tvg-logo="" group-title="TUNISIA",TN: Tunisia 1 FHD
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46287.ts
-#EXTINF:-1 tvg-id="" tvg-name="Tunisia 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg/739px-Logo_T%C3%A9l%C3%A9vision_tunisienne_1%2C_2017.svg.png" group-title="TUNISIA",Tunisia 1 HD
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44894.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Tunisia Nat 1" tvg-logo="" group-title="TUNISIA",TN: Tunisia Nat 1
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46288.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Tunisia 2 FHD" tvg-logo="" group-title="TUNISIA",TN: Tunisia 2 FHD
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46289.ts
-#EXTINF:-1 tvg-id="" tvg-name="Tunisia Nat 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Logo_T%C3%A9l%C3%A9vision_tunisienne_2%2C_2017.svg/739px-Logo_T%C3%A9l%C3%A9vision_tunisienne_2%2C_2017.svg.png" group-title="TUNISIA",Tunisia Nat 2
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44895.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Tunisia Nat 2" tvg-logo="" group-title="TUNISIA",TN: Tunisia Nat 2
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46290.ts
-#EXTINF:-1 tvg-id="" tvg-name="Tunisia 2 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Logo_T%C3%A9l%C3%A9vision_tunisienne_2%2C_2017.svg/739px-Logo_T%C3%A9l%C3%A9vision_tunisienne_2%2C_2017.svg.png" group-title="TUNISIA",Tunisia 2 HD
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44896.ts
-#EXTINF:-1 tvg-id="" tvg-name="Tunisia Educ 1" tvg-logo="https://www.tunisienumerique.com/wp-content/uploads/2020/04/wataniya3.jpg" group-title="TUNISIA",Tunisia Educ 1
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44897.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Watania Educ" tvg-logo="" group-title="TUNISIA",TN: Watania Educ
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46302.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Hannibal TV" tvg-logo="" group-title="TUNISIA",TN: Hannibal TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46296.ts
-#EXTINF:-1 tvg-id="" tvg-name="Hannibal TV" tvg-logo="https://cdn.sat.tv/wp-content/uploads/2017/03/HannibalTV.png" group-title="TUNISIA",Hannibal TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44905.ts
-#EXTINF:-1 tvg-id="" tvg-name="El Hiwar Ettounsi" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/81/123.png" group-title="TUNISIA",El Hiwar Ettounsi
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44906.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: El Hiwar Ettounsi" tvg-logo="" group-title="TUNISIA",TN: El Hiwar Ettounsi
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46291.ts
-#EXTINF:-1 tvg-id="" tvg-name="Nessma Ejdida" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/46/Nessma_Al_Jadida_Logo.png" group-title="TUNISIA",Nessma Ejdida
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44892.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Nessma TV" tvg-logo="" group-title="TUNISIA",TN: Nessma TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46295.ts
-#EXTINF:-1 tvg-id="" tvg-name="AttesiaTV" tvg-logo="https://play-lh.googleusercontent.com/DoxUlfsSlT1N46-PRkyzA4r8t6td4AGp4ygrS457u3xOiTGMdKHHhasy3Kg0Qdwsso4" group-title="TUNISIA",AttesiaTV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44903.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Attessia TV" tvg-logo="" group-title="TUNISIA",TN: Attessia TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46293.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Carthage+" tvg-logo="" group-title="TUNISIA",TN: Carthage+
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46299.ts
-#EXTINF:-1 tvg-id="" tvg-name="Carthage +" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/a/af/Logo-carthageplus.png" group-title="TUNISIA",Carthage +
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44901.ts
-#EXTINF:-1 tvg-id="" tvg-name="Al janoubia" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_Al_Janoubiya_TV.png" group-title="TUNISIA",Al janoubia
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44902.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Al Janoubia" tvg-logo="" group-title="TUNISIA",TN: Al Janoubia
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46298.ts
-#EXTINF:-1 tvg-id="" tvg-name="Tounesna" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Logo_tunisna_rogn%C3%A9.png" group-title="TUNISIA",Tounesna
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44898.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Tunisna TV" tvg-logo="" group-title="TUNISIA",TN: Tunisna TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46294.ts
-#EXTINF:-1 tvg-id="" tvg-name="Telvza" tvg-logo="https://photos.live-tv-channels.org/tv-logo/tn-telvza-tv-4014.jpg" group-title="TUNISIA",Telvza
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44900.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Telvza TV" tvg-logo="" group-title="TUNISIA",TN: Telvza TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46292.ts
-#EXTINF:-1 tvg-id="" tvg-name="ZaytounaTV" tvg-logo="https://zitounatv.net/wp-content/uploads/2019/08/zitounafooter-2.png" group-title="TUNISIA",ZaytounaTV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44904.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Zaytouna TV" tvg-logo="" group-title="TUNISIA",TN: Zaytouna TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46297.ts
-#EXTINF:-1 tvg-id="" tvg-name="Al Insen" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/b/be/Al-insen-tv.png" group-title="TUNISIA",Al Insen
-http://s.delta2022.xyz:8880/live/94541124/4878685925/44899.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Insen TV" tvg-logo="" group-title="TUNISIA",TN: Insen TV
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46300.ts
-#EXTINF:-1 tvg-id="" tvg-name="TN: Al Mustakila" tvg-logo="" group-title="TUNISIA",TN: Al Mustakila
-http://s.delta2022.xyz:8880/live/94541124/4878685925/46301.ts
-#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [SD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47237.ts
-#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [HD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47238.ts
-#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [FHD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47239.ts
-#EXTINF:-1 tvg-id="" tvg-name="L'EQUIPE 21 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L'EQUIPE 21 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47240.ts
-#EXTINF:-1 tvg-id="" tvg-name="L'EQUIPE 21 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L'EQUIPE 21 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47241.ts
-#EXTINF:-1 tvg-id="" tvg-name="L EQUIPE 21 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L EQUIPE 21 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47242.ts
-#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47243.ts
-#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47244.ts
-#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47245.ts
-#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47246.ts
-#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47247.ts
-#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47248.ts
-#EXTINF:-1 tvg-id="" tvg-name="EQUIDIA LIVE [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Logo-equidia-live.png" group-title="LIVE SPORTS",EQUIDIA LIVE [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47249.ts
-#EXTINF:-1 tvg-id="" tvg-name="EQUIDIA LIVE [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Logo-equidia-live.png" group-title="LIVE SPORTS",EQUIDIA LIVE [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47250.ts
-#EXTINF:-1 tvg-id="" tvg-name="EQUIDIA LIVE [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Logo-equidia-live.png" group-title="LIVE SPORTS",EQUIDIA LIVE [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47251.ts
-#EXTINF:-1 tvg-id="" tvg-name="GOLF + [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c2/Golf%2B.svg/1280px-Golf%2B.svg.png" group-title="LIVE SPORTS",GOLF + [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47252.ts
-#EXTINF:-1 tvg-id="" tvg-name="GOLF + [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c2/Golf%2B.svg/1280px-Golf%2B.svg.png" group-title="LIVE SPORTS",GOLF + [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47253.ts
-#EXTINF:-1 tvg-id="" tvg-name="GOLF+ [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c2/Golf%2B.svg/1280px-Golf%2B.svg.png" group-title="LIVE SPORTS",GOLF+ [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47254.ts
-#EXTINF:-1 tvg-id="" tvg-name="GOLF CHANNEL [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Golf_Channel_Logo.png/1200px-Golf_Channel_Logo.png" group-title="LIVE SPORTS",GOLF CHANNEL [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47255.ts
-#EXTINF:-1 tvg-id="" tvg-name="GOLF CHANNEL [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Golf_Channel_Logo.png/1200px-Golf_Channel_Logo.png" group-title="LIVE SPORTS",GOLF CHANNEL [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47256.ts
-#EXTINF:-1 tvg-id="" tvg-name="GOLF CHANNEL FRANCE [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/ce/Logo_Golf_Channel_2014.png" group-title="LIVE SPORTS",GOLF CHANNEL FRANCE [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47257.ts
-#EXTINF:-1 tvg-id="" tvg-name="AUTO MOTO LA CHAINE [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Automoto_La_cha%C3%AEne_%282018%29.png/1200px-Automoto_La_cha%C3%AEne_%282018%29.png" group-title="LIVE SPORTS",AUTO MOTO LA CHAINE [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47258.ts
-#EXTINF:-1 tvg-id="" tvg-name="AUTO MOTO LA CHAINE [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Automoto_La_cha%C3%AEne_%282018%29.png/1200px-Automoto_La_cha%C3%AEne_%282018%29.png" group-title="LIVE SPORTS",AUTO MOTO LA CHAINE [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47259.ts
-#EXTINF:-1 tvg-id="" tvg-name="AUTO MOTO LA CHAINE [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Automoto_La_cha%C3%AEne_%282018%29.png/1200px-Automoto_La_cha%C3%AEne_%282018%29.png" group-title="LIVE SPORTS",AUTO MOTO LA CHAINE [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47260.ts
-#EXTINF:-1 tvg-id="" tvg-name="AUTO PLUS TV [FHD]" tvg-logo="https://cdn.cdnlogo.com/logos/a/91/autoplus.svg" group-title="LIVE SPORTS",AUTO PLUS TV [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47261.ts
-#EXTINF:-1 tvg-id="" tvg-name="OLPLAY TV [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Play_TV_SVG.svg/1200px-Play_TV_SVG.svg.png" group-title="LIVE SPORTS",OLPLAY TV [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47262.ts
-#EXTINF:-1 tvg-id="" tvg-name="SPORT EN FRANCE [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/83/Sport_en_France_Logo.png" group-title="LIVE SPORTS",SPORT EN FRANCE [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47263.ts
-#EXTINF:-1 tvg-id="" tvg-name="TRACE SPORT STARS [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/TraceSSLogo.png" group-title="LIVE SPORTS",TRACE SPORT STARS [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47264.ts
-#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47266.ts
-#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47265.ts
-#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47267.ts
-#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47268.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="LIVE SPORTS",CANAL+ SPORT [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47269.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="LIVE SPORTS",CANAL+ SPORT [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47270.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="LIVE SPORTS",CANAL+ SPORT [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47271.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FOOT [SD]" tvg-logo="https://thumb.canalplus.pro/bran/unsafe/x/image/62dab6a90b84c/uploads/media/C+FOOT_213x160.png" group-title="LIVE SPORTS",CANAL+ FOOT [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47272.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FOOT [HD]" tvg-logo="https://thumb.canalplus.pro/bran/unsafe/x/image/62dab6a90b84c/uploads/media/C+FOOT_213x160.png" group-title="LIVE SPORTS",CANAL+ FOOT [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47273.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FOOT [FHD]" tvg-logo="https://thumb.canalplus.pro/bran/unsafe/x/image/62dab6a90b84c/uploads/media/C+FOOT_213x160.png" group-title="LIVE SPORTS",CANAL+ FOOT [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47274.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT 360 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" group-title="LIVE SPORTS",CANAL+ SPORT 360 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47275.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT 360 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" group-title="LIVE SPORTS",CANAL+ SPORT 360 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47276.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT 360 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" group-title="LIVE SPORTS",CANAL+ SPORT 360 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47277.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ PREMIER LEAGUE [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Canal_PremierLeague.svg" group-title="LIVE SPORTS",CANAL+ PREMIER LEAGUE [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47278.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ PREMIER LEAGUE [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Canal_PremierLeague.svg" group-title="LIVE SPORTS",CANAL+ PREMIER LEAGUE [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47279.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ PREMIERE LIGUE [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Canal_PremierLeague.svg" group-title="LIVE SPORTS",CANAL+ PREMIERE LIGUE [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47280.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://static.s-sfr.fr/media/logonoir-uefachampionsleague-cycle2021-2024-2.png" group-title="LIVE SPORTS",CANAL+ LEAGUE DES CHAMPIONS [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47281.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FORMULA1 [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_Formula1.svg" group-title="LIVE SPORTS",CANAL+ FORMULA1 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47282.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FORMULA1 [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_Formula1.svg" group-title="LIVE SPORTS",CANAL+ FORMULA1 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47283.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FORMULA1 [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_Formula1.svg" group-title="LIVE SPORTS",CANAL+ FORMULA1 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47284.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ MOTOGP [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/Canal_MotoGP.svg" group-title="LIVE SPORTS",CANAL+ MOTOGP [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47285.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ MOTOGP [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/Canal_MotoGP.svg" group-title="LIVE SPORTS",CANAL+ MOTOGP [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47286.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ TOP 14 [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Canal_Top14BetaEarliest.png" group-title="LIVE SPORTS",CANAL+ TOP 14 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47287.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ TOP 14 [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Canal_Top14BetaEarliest.png" group-title="LIVE SPORTS",CANAL+ TOP 14 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47288.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ TOP 14 [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Canal_Top14BetaEarliest.png" group-title="LIVE SPORTS",CANAL+ TOP 14 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47289.ts
-#EXTINF:-1 tvg-id="" tvg-name="CANAL+ LEAGUE DES CHAMPIONS [FHD]" tvg-logo="https://static.s-sfr.fr/media/logonoir-uefachampionsleague-cycle2021-2024-2.png" group-title="LIVE SPORTS",CANAL+ LEAGUE DES CHAMPIONS [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47290.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47291.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47292.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47293.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47294.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47295.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47296.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE MULTIPLEX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE MULTIPLEX
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47297.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -1
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47298.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -2
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47299.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -3
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47300.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -4
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47301.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -5
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47302.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -6
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47303.ts
-#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -7
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47304.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 1 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 1 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47305.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 1 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 1 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47306.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 1 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 1 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47307.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 2 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 2 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47308.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 2 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 2 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47309.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 2 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 2 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47310.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 3 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 3 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47311.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 3 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 3 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47312.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 3 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 3 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47313.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 4 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 4 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47314.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 4 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 4 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47315.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 4 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 4 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47316.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 1 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 1 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47317.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 1 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 1 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47318.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 1 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 1 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47322.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 2 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 2 [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47320.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 2 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 2 [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47321.ts
-#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 2 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 2 [FHD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47319.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 1 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47227.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 2 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47228.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 3 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47229.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 4 [HEVC]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/Logo-bein-sports-max-4-hd_1ut2dcsfzw7zj1204z6hz3qkhp-1-.jpg" group-title="FRENCH H256",BEIN SPORTS MAX 4 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47230.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 5 [HEVC]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/Bein-sports-max-5_uioihjesc6nw1p6ydjpmkhsr6-1-.jpg" group-title="FRENCH H256",BEIN SPORTS MAX 5 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47231.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 6 [HEVC]" tvg-logo="https://www.ooredoo.qa/web/wp-content/uploads/2021/10/119.png" group-title="FRENCH H256",BEIN SPORTS MAX 6 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47232.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 7 [HEVC]" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/06/bein-sports-max-7.png" group-title="FRENCH H256",BEIN SPORTS MAX 7 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47233.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 8 [HEVC]" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/06/bein-sports-max-9.png" group-title="FRENCH H256",BEIN SPORTS MAX 8 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47234.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 9 [HEVC]" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/06/bein-sports-max-9.png" group-title="FRENCH H256",BEIN SPORTS MAX 9 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47235.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 10 [HEVC]" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_10.png" group-title="FRENCH H256",BEIN SPORTS MAX 10 [HEVC]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47236.ts
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 [SD]
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47323.ts
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 [HD]
@@ -396,6 +160,30 @@ http://s.delta2022.xyz:8880/live/94541124/4878685925/47357.ts
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47358.ts
 #EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 6" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2021/02/logo-multisports-6.png" group-title="LIVE SPORTS",MULTISPORT 6
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47359.ts
+#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [SD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47237.ts
+#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [HD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47238.ts
+#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [FHD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47239.ts
+#EXTINF:-1 tvg-id="" tvg-name="L'EQUIPE 21 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L'EQUIPE 21 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47240.ts
+#EXTINF:-1 tvg-id="" tvg-name="L'EQUIPE 21 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L'EQUIPE 21 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47241.ts
+#EXTINF:-1 tvg-id="" tvg-name="L EQUIPE 21 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L EQUIPE 21 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47242.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47243.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47244.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47245.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47246.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47247.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47248.ts
 #EXTINF:-1 tvg-id="" tvg-name="TF1 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TF1_logo_2013.png/640px-TF1_logo_2013.png" group-title="FRENCH",TF1 [SD]
 http://s.delta2022.xyz:8880/live/94541124/4878685925/46904.ts
 #EXTINF:-1 tvg-id="" tvg-name="TF1 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TF1_logo_2013.png/640px-TF1_logo_2013.png" group-title="FRENCH",TF1 [HD]
@@ -1308,26 +1096,6 @@ http://s.delta2022.xyz:8880/live/94541124/4878685925/47224.ts
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47225.ts
 #EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 2 [HEVC]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Logo_RMC_Sport_2018.svg/1681px-Logo_RMC_Sport_2018.svg.png" group-title="FRENCH H256",RMC SPORT 2 [HEVC]
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47226.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 1 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47227.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 2 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47228.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 3 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47229.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 4 [HEVC]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/Logo-bein-sports-max-4-hd_1ut2dcsfzw7zj1204z6hz3qkhp-1-.jpg" group-title="FRENCH H256",BEIN SPORTS MAX 4 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47230.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 5 [HEVC]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/Bein-sports-max-5_uioihjesc6nw1p6ydjpmkhsr6-1-.jpg" group-title="FRENCH H256",BEIN SPORTS MAX 5 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47231.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 6 [HEVC]" tvg-logo="https://www.ooredoo.qa/web/wp-content/uploads/2021/10/119.png" group-title="FRENCH H256",BEIN SPORTS MAX 6 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47232.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 7 [HEVC]" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/06/bein-sports-max-7.png" group-title="FRENCH H256",BEIN SPORTS MAX 7 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47233.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 8 [HEVC]" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/06/bein-sports-max-9.png" group-title="FRENCH H256",BEIN SPORTS MAX 8 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47234.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 9 [HEVC]" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/06/bein-sports-max-9.png" group-title="FRENCH H256",BEIN SPORTS MAX 9 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47235.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS MAX 10 [HEVC]" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_10.png" group-title="FRENCH H256",BEIN SPORTS MAX 10 [HEVC]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47236.ts
 #EXTINF:-1 tvg-id="" tvg-name="CANAL+ KIDS [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/Canal%2B_Kids.png" group-title="KIDS FR",CANAL+ KIDS [SD]
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47360.ts
 #EXTINF:-1 tvg-id="" tvg-name="CANAL+ KIDS [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0c/Canal%2B_Kids.png" group-title="KIDS FR",CANAL+ KIDS [HD]
