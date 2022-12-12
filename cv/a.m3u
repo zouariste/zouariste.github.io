@@ -66,6 +66,365 @@ http://s.delta2022.xyz:8880/live/94541124/4878685925/22189.ts
 http://s.delta2022.xyz:8880/live/94541124/4878685925/22194.ts
 #EXTINF:-1 tvg-id="" tvg-name="Mosaique FM LIVE" tvg-logo="https://www.radio.fr/images/broadcasts/6e/ce/19391/1/c300.png" group-title="TUNISIA",Mosaique FM LIVE
 http://s.delta2022.xyz:8880/live/94541124/4878685925/44886.ts
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 HD" tvg-logo="https://zupimages.net/up/22/46/rs24.png" group-title="beIN Max (S1)",beIN MAX 1 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46663.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 SD" tvg-logo="https://zupimages.net/up/22/46/rs24.png" group-title="beIN Max (S1)",beIN MAX 1 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46671.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 HD" tvg-logo="https://zupimages.net/up/22/46/y8d2.png" group-title="beIN Max (S1)",beIN MAX 2 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46664.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 SD" tvg-logo="https://zupimages.net/up/22/46/y8d2.png" group-title="beIN Max (S1)",beIN MAX 2 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46672.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 HD" tvg-logo="https://zupimages.net/up/22/46/ne4m.png" group-title="beIN Max (S1)",beIN MAX 3 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46665.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 SD" tvg-logo="https://zupimages.net/up/22/46/ne4m.png" group-title="beIN Max (S1)",beIN MAX 3 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46673.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 HD" tvg-logo="https://zupimages.net/up/22/46/cidz.png" group-title="beIN Max (S1)",beIN MAX 4 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46666.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 SD" tvg-logo="https://zupimages.net/up/22/46/cidz.png" group-title="beIN Max (S1)",beIN MAX 4 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46674.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 HD" tvg-logo="https://zupimages.net/up/22/46/298p.png" group-title="beIN Max (S1)",beIN MAX 5 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46667.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 SD" tvg-logo="https://zupimages.net/up/22/46/298p.png" group-title="beIN Max (S1)",beIN MAX 5 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46675.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 HD" tvg-logo="https://zupimages.net/up/22/46/rkvs.png" group-title="beIN Max (S1)",beIN MAX 6 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46668.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 SD" tvg-logo="https://zupimages.net/up/22/46/rkvs.png" group-title="beIN Max (S1)",beIN MAX 6 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46676.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 FHD" tvg-logo="https://zupimages.net/up/22/46/rs24.png" group-title="beIN Max (S1)",beIN MAX 1 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46655.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 4K" tvg-logo="https://zupimages.net/up/22/46/rs24.png" group-title="beIN Max (S1)",beIN MAX 1 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46647.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 FHD" tvg-logo="https://zupimages.net/up/22/46/y8d2.png" group-title="beIN Max (S1)",beIN MAX 2 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46656.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 4K" tvg-logo="https://zupimages.net/up/22/46/y8d2.png" group-title="beIN Max (S1)",beIN MAX 2 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46648.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 FHD" tvg-logo="https://zupimages.net/up/22/46/ne4m.png" group-title="beIN Max (S1)",beIN MAX 3 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46657.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 4K" tvg-logo="https://zupimages.net/up/22/46/ne4m.png" group-title="beIN Max (S1)",beIN MAX 3 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46649.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 FHD" tvg-logo="https://zupimages.net/up/22/46/cidz.png" group-title="beIN Max (S1)",beIN MAX 4 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46658.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 4K" tvg-logo="https://zupimages.net/up/22/46/cidz.png" group-title="beIN Max (S1)",beIN MAX 4 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46650.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 FHD" tvg-logo="https://zupimages.net/up/22/46/298p.png" group-title="beIN Max (S1)",beIN MAX 5 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46659.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 4K" tvg-logo="https://zupimages.net/up/22/46/298p.png" group-title="beIN Max (S1)",beIN MAX 5 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46651.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 FHD" tvg-logo="https://zupimages.net/up/22/46/rkvs.png" group-title="beIN Max (S1)",beIN MAX 6 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46660.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 4K" tvg-logo="https://zupimages.net/up/22/46/rkvs.png" group-title="beIN Max (S1)",beIN MAX 6 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46652.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 1 HD" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X1.png" group-title="beIN Max (S1)",BeIN Alkass Extra 1 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46669.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 1 SD" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X1.png" group-title="beIN Max (S1)",BeIN Alkass Extra 1 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46677.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 1 4K" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X1.png" group-title="beIN Max (S1)",BeIN Alkass Extra 1 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46653.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 1 FHD" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X1.png" group-title="beIN Max (S1)",BeIN Alkass Extra 1 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46661.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 2 HD" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X2.png" group-title="beIN Max (S1)",BeIN Alkass Extra 2 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46670.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 2 SD" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X2.png" group-title="beIN Max (S1)",BeIN Alkass Extra 2 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46678.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 2 4K" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X2.png" group-title="beIN Max (S1)",BeIN Alkass Extra 2 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46654.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass Extra 2 FHD" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/Alkass_X2.png" group-title="beIN Max (S1)",BeIN Alkass Extra 2 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46662.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 SD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 1 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46703.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 HD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 1 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46704.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 FHD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 1 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46705.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 4K" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 1 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46706.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 SD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 2 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46707.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 HD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 2 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46708.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 FHD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 2 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46709.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 4K" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 2 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46710.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 SD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 3 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46711.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 HD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 3 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46712.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 FHD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 3 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46713.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 4K" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 3 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46714.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 SD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 4 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46715.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 HD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 4 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46716.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 FHD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 4 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46717.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 4 4K" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 4 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46718.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 SD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 5 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46719.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 HD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 5 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46720.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 FHD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 5 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46721.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 5 4K" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 5 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46722.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 SD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 6 SD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46723.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 HD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 6 HD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46724.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 FHD" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 6 FHD
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46725.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 6 4K" tvg-logo="" group-title="beIN Max (S2)",beIN MAX 6 4K
+http://s.delta2022.xyz:8880/live/94541124/4878685925/46726.ts
+#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [SD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47237.ts
+#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [HD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47238.ts
+#EXTINF:-1 tvg-id="" tvg-name="INFOSPORT [FHD]" tvg-logo="https://w7.pngwing.com/pngs/95/650/png-transparent-infosport-television-channel-logo-sky-news-sport-television-text-sport.png" group-title="LIVE SPORTS",INFOSPORT [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47239.ts
+#EXTINF:-1 tvg-id="" tvg-name="L'EQUIPE 21 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L'EQUIPE 21 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47240.ts
+#EXTINF:-1 tvg-id="" tvg-name="L'EQUIPE 21 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L'EQUIPE 21 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47241.ts
+#EXTINF:-1 tvg-id="" tvg-name="L EQUIPE 21 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4f/Logo_L%27%C3%89quipe_21.svg" group-title="LIVE SPORTS",L EQUIPE 21 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47242.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47243.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47244.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/2560px-Eurosport_1_Logo_2015.svg.png" group-title="LIVE SPORTS",EUROSPORT 1 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47245.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47246.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47247.ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/Eurosport_2_Logo.jpg" group-title="LIVE SPORTS",EUROSPORT 2 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47248.ts
+#EXTINF:-1 tvg-id="" tvg-name="EQUIDIA LIVE [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Logo-equidia-live.png" group-title="LIVE SPORTS",EQUIDIA LIVE [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47249.ts
+#EXTINF:-1 tvg-id="" tvg-name="EQUIDIA LIVE [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Logo-equidia-live.png" group-title="LIVE SPORTS",EQUIDIA LIVE [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47250.ts
+#EXTINF:-1 tvg-id="" tvg-name="EQUIDIA LIVE [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Logo-equidia-live.png" group-title="LIVE SPORTS",EQUIDIA LIVE [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47251.ts
+#EXTINF:-1 tvg-id="" tvg-name="GOLF + [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c2/Golf%2B.svg/1280px-Golf%2B.svg.png" group-title="LIVE SPORTS",GOLF + [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47252.ts
+#EXTINF:-1 tvg-id="" tvg-name="GOLF + [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c2/Golf%2B.svg/1280px-Golf%2B.svg.png" group-title="LIVE SPORTS",GOLF + [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47253.ts
+#EXTINF:-1 tvg-id="" tvg-name="GOLF+ [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c2/Golf%2B.svg/1280px-Golf%2B.svg.png" group-title="LIVE SPORTS",GOLF+ [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47254.ts
+#EXTINF:-1 tvg-id="" tvg-name="GOLF CHANNEL [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Golf_Channel_Logo.png/1200px-Golf_Channel_Logo.png" group-title="LIVE SPORTS",GOLF CHANNEL [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47255.ts
+#EXTINF:-1 tvg-id="" tvg-name="GOLF CHANNEL [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Golf_Channel_Logo.png/1200px-Golf_Channel_Logo.png" group-title="LIVE SPORTS",GOLF CHANNEL [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47256.ts
+#EXTINF:-1 tvg-id="" tvg-name="GOLF CHANNEL FRANCE [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/ce/Logo_Golf_Channel_2014.png" group-title="LIVE SPORTS",GOLF CHANNEL FRANCE [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47257.ts
+#EXTINF:-1 tvg-id="" tvg-name="AUTO MOTO LA CHAINE [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Automoto_La_cha%C3%AEne_%282018%29.png/1200px-Automoto_La_cha%C3%AEne_%282018%29.png" group-title="LIVE SPORTS",AUTO MOTO LA CHAINE [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47258.ts
+#EXTINF:-1 tvg-id="" tvg-name="AUTO MOTO LA CHAINE [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Automoto_La_cha%C3%AEne_%282018%29.png/1200px-Automoto_La_cha%C3%AEne_%282018%29.png" group-title="LIVE SPORTS",AUTO MOTO LA CHAINE [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47259.ts
+#EXTINF:-1 tvg-id="" tvg-name="AUTO MOTO LA CHAINE [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Automoto_La_cha%C3%AEne_%282018%29.png/1200px-Automoto_La_cha%C3%AEne_%282018%29.png" group-title="LIVE SPORTS",AUTO MOTO LA CHAINE [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47260.ts
+#EXTINF:-1 tvg-id="" tvg-name="AUTO PLUS TV [FHD]" tvg-logo="https://cdn.cdnlogo.com/logos/a/91/autoplus.svg" group-title="LIVE SPORTS",AUTO PLUS TV [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47261.ts
+#EXTINF:-1 tvg-id="" tvg-name="OLPLAY TV [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Play_TV_SVG.svg/1200px-Play_TV_SVG.svg.png" group-title="LIVE SPORTS",OLPLAY TV [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47262.ts
+#EXTINF:-1 tvg-id="" tvg-name="SPORT EN FRANCE [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/83/Sport_en_France_Logo.png" group-title="LIVE SPORTS",SPORT EN FRANCE [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47263.ts
+#EXTINF:-1 tvg-id="" tvg-name="TRACE SPORT STARS [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/TraceSSLogo.png" group-title="LIVE SPORTS",TRACE SPORT STARS [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47264.ts
+#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47266.ts
+#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47265.ts
+#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47267.ts
+#EXTINF:-1 tvg-id="" tvg-name="LUCKY JACK [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/9/93/Lucky_Jack.tv_logo.png" group-title="LIVE SPORTS",LUCKY JACK [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47268.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="LIVE SPORTS",CANAL+ SPORT [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47269.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="LIVE SPORTS",CANAL+ SPORT [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47270.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png" group-title="LIVE SPORTS",CANAL+ SPORT [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47271.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FOOT [SD]" tvg-logo="https://thumb.canalplus.pro/bran/unsafe/x/image/62dab6a90b84c/uploads/media/C+FOOT_213x160.png" group-title="LIVE SPORTS",CANAL+ FOOT [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47272.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FOOT [HD]" tvg-logo="https://thumb.canalplus.pro/bran/unsafe/x/image/62dab6a90b84c/uploads/media/C+FOOT_213x160.png" group-title="LIVE SPORTS",CANAL+ FOOT [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47273.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FOOT [FHD]" tvg-logo="https://thumb.canalplus.pro/bran/unsafe/x/image/62dab6a90b84c/uploads/media/C+FOOT_213x160.png" group-title="LIVE SPORTS",CANAL+ FOOT [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47274.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT 360 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" group-title="LIVE SPORTS",CANAL+ SPORT 360 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47275.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT 360 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" group-title="LIVE SPORTS",CANAL+ SPORT 360 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47276.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ SPORT 360 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" group-title="LIVE SPORTS",CANAL+ SPORT 360 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47277.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ PREMIER LEAGUE [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Canal_PremierLeague.svg" group-title="LIVE SPORTS",CANAL+ PREMIER LEAGUE [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47278.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ PREMIER LEAGUE [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Canal_PremierLeague.svg" group-title="LIVE SPORTS",CANAL+ PREMIER LEAGUE [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47279.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ PREMIERE LIGUE [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Canal_PremierLeague.svg" group-title="LIVE SPORTS",CANAL+ PREMIERE LIGUE [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47280.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://static.s-sfr.fr/media/logonoir-uefachampionsleague-cycle2021-2024-2.png" group-title="LIVE SPORTS",CANAL+ LEAGUE DES CHAMPIONS [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47281.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FORMULA1 [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_Formula1.svg" group-title="LIVE SPORTS",CANAL+ FORMULA1 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47282.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FORMULA1 [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_Formula1.svg" group-title="LIVE SPORTS",CANAL+ FORMULA1 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47283.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ FORMULA1 [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_Formula1.svg" group-title="LIVE SPORTS",CANAL+ FORMULA1 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47284.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ MOTOGP [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/Canal_MotoGP.svg" group-title="LIVE SPORTS",CANAL+ MOTOGP [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47285.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ MOTOGP [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/Canal_MotoGP.svg" group-title="LIVE SPORTS",CANAL+ MOTOGP [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47286.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ TOP 14 [SD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Canal_Top14BetaEarliest.png" group-title="LIVE SPORTS",CANAL+ TOP 14 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47287.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ TOP 14 [HD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Canal_Top14BetaEarliest.png" group-title="LIVE SPORTS",CANAL+ TOP 14 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47288.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ TOP 14 [FHD]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Canal_Top14BetaEarliest.png" group-title="LIVE SPORTS",CANAL+ TOP 14 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47289.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL+ LEAGUE DES CHAMPIONS [FHD]" tvg-logo="https://static.s-sfr.fr/media/logonoir-uefachampionsleague-cycle2021-2024-2.png" group-title="LIVE SPORTS",CANAL+ LEAGUE DES CHAMPIONS [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47290.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47291.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47292.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47293.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47294.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47295.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47296.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE MULTIPLEX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE MULTIPLEX
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47297.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -1
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47298.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -2
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47299.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -3
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47300.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -4
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47301.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -5
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47302.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -6
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47303.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -7
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47304.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 1 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 1 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47305.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 1 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 1 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47306.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 1 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 1 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47307.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 2 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 2 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47308.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 2 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 2 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47309.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 2 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 2 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47310.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 3 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 3 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47311.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 3 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 3 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47312.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 3 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 3 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47313.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 4 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 4 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47314.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 4 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 4 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47315.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT 4 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT 4 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47316.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 1 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 1 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47317.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 1 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 1 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47318.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 1 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 1 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47322.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 2 [SD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 2 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47320.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 2 [HD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 2 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47321.ts
+#EXTINF:-1 tvg-id="" tvg-name="RMC SPORT ACCESS 2 [FHD]" tvg-logo="https://w7.pngwing.com/pngs/678/313/png-transparent-rmc-sport-sfr-sport-nextradiotv-others-text-sport-logo.png" group-title="LIVE SPORTS",RMC SPORT ACCESS 2 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47319.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47323.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47324.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINSPORT 1 [FHD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEINSPORT 1 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47325.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47326.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47327.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINSPORT 2 [FHD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEINSPORT 2 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47328.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47329.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47330.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINSPORT 3 [FHD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEINSPORT 3 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47331.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 4 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 4 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47332.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 4 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 4 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47333.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 4 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 4 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47334.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 5 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 5 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47335.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 5 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 5 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47336.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 5 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 5 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47337.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 6 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 6 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47338.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 6 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 6 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47339.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 6 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 6 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47340.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 7 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 7 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47341.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 7 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 7 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47342.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 7 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 7 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47343.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 8 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 8 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47344.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 8 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 8 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47345.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 8 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 8 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47346.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 9 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 9 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47347.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 9 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 9 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47348.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 9 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 9 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47349.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 10 [SD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 10 [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47350.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 10 [HD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 10 [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47351.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT MAX 10 [FHD]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png" group-title="LIVE SPORTS",BEIN SPORT MAX 10 [FHD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47352.ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 1" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/05/logo-multisports-1.png" group-title="LIVE SPORTS",MULTISPORT 1
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47353.ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 2" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/05/logo-multisports-2-1.png" group-title="LIVE SPORTS",MULTISPORT 2
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47354.ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 3" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/05/logo-multisports-3-1.png" group-title="LIVE SPORTS",MULTISPORT 3
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47355.ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 4" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/05/logo-multisports-4.png" group-title="LIVE SPORTS",MULTISPORT 4
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47356.ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 5" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/05/logo-multisports-5.png" group-title="LIVE SPORTS",MULTISPORT 5
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47357.ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 5" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2020/05/logo-multisports-5.png" group-title="LIVE SPORTS",MULTISPORT 5
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47358.ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTISPORT 6" tvg-logo="https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2021/02/logo-multisports-6.png" group-title="LIVE SPORTS",MULTISPORT 6
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47359.ts
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 1 [HEVC]
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47227.ts
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 [HEVC]" tvg-logo="https://e7.pngegg.com/pngimages/358/493/png-clipart-bein-sports-united-states-nasl-la-liga-others-miscellaneous-purple.png" group-title="FRENCH H256",BEIN SPORT 2 [HEVC]
