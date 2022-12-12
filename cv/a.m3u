@@ -67,6 +67,18 @@ http://s.delta2022.xyz:8880/live/94541124/4878685925/22194.ts
 #EXTINF:-1 tvg-id="" tvg-name="Mosaique FM LIVE" tvg-logo="https://www.radio.fr/images/broadcasts/6e/ce/19391/1/c300.png" group-title="TUNISIA",Mosaique FM LIVE
 http://s.delta2022.xyz:8880/live/94541124/4878685925/44886.ts
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47291.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47292.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47293.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47294.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47295.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]
+http://s.delta2022.xyz:8880/live/94541124/4878685925/47296.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 HD" tvg-logo="https://zupimages.net/up/22/46/rs24.png" group-title="beIN Max (S1)",beIN MAX 1 HD
 http://s.delta2022.xyz:8880/live/94541124/4878685925/46663.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 SD" tvg-logo="https://zupimages.net/up/22/46/rs24.png" group-title="beIN Max (S1)",beIN MAX 1 SD
@@ -287,18 +299,6 @@ http://s.delta2022.xyz:8880/live/94541124/4878685925/47288.ts
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47289.ts
 #EXTINF:-1 tvg-id="" tvg-name="CANAL+ LEAGUE DES CHAMPIONS [FHD]" tvg-logo="https://static.s-sfr.fr/media/logonoir-uefachampionsleague-cycle2021-2024-2.png" group-title="LIVE SPORTS",CANAL+ LEAGUE DES CHAMPIONS [FHD]
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47290.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47291.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47292.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47293.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 2 LEAGUE DES CHAMPIONS [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47294.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [SD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47295.ts
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 3 LEAGUE DES CHAMPIONS [HD]
-http://s.delta2022.xyz:8880/live/94541124/4878685925/47296.ts
 #EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE MULTIPLEX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE MULTIPLEX
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47297.ts
 #EXTINF:-1 tvg-id="" tvg-name="AMAZON PRIME LIGUE 1 -1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Amazon_Prime_logo.png" group-title="LIVE SPORTS",AMAZON PRIME LIGUE 1 -1
