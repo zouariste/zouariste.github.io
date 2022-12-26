@@ -67,6 +67,46 @@ http://s.delta2022.xyz:8880/live/94541124/4878685925/22194.ts
 #EXTINF:-1 tvg-id="" tvg-name="Mosaique FM LIVE" tvg-logo="https://www.radio.fr/images/broadcasts/6e/ce/19391/1/c300.png" group-title="TUNISIA",Mosaique FM LIVE
 http://s.delta2022.xyz:8880/live/94541124/4878685925/44886.ts
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 1 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS Premium 1 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50107.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 1 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS Premium 1 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50108.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 2 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS Premium 2 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50109.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 2 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS Premium 2 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50110.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 3 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS Premium 3 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50111.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 3 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS Premium 3 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50112.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 1 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50113.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 1 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50114.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 2 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50115.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 2 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50116.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 3 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50117.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 3 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50118.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 4 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 4 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50119.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 4 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 4 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50120.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 5 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 5 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50121.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 5 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 5 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50122.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 6 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 6 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50123.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 6 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 6 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50124.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 7 HD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 7 HD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50125.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 7 SD" tvg-logo="" group-title="beIN SPORTS",beIN SPORTS 7 SD
+http://s.delta2022.xyz:8880/live/93077051/KAmS83YgWw/50126.ts
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [SD]
 http://s.delta2022.xyz:8880/live/94541124/4878685925/47291.ts
 #EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]" tvg-logo="https://seeklogo.com/images/B/bein-sport-logo-DDEBCC17B3-seeklogo.com.png" group-title="LIVE SPORTS",BEIN SPORT 1 LEAGUE DES CHAMPIONS [HD]
