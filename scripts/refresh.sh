@@ -12,7 +12,7 @@ server=$2
 if [ "$server" == "1" ]; then
     wget -c 'http://s.delta2022.xyz:8880/get/93077051//m3u_plus' && mv m3u* iptv.m3u
 else
-    wget -c 'http://s.delta2022.xyz:8880/get/94541124//m3u_plus' && mv m3u* iptv.m3u
+    wget -c 'http://s.delta2022.xyz:8880/get/94541124/57647818/m3u_plus' && mv m3u* iptv.m3u
 fi
 
 
