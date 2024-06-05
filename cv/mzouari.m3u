@@ -1,3 +1,449 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="Ar 365 Days (2020)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ibaDBJBAvWd4J5lzfbpq1PJ6ZU1.jpg" group-title="VOD - أفلام أجنبية",Ar 365 Days (2020)
 http://b.delta2022.xyz:8880/movie/93077051k/7513819649/414713.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Fr Fifty Shades Of Grey (2015)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg" group-title="OTHERS [FR]",Fr Fifty Shades Of Grey (2015)
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/394939.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ar Fifty Shades Darker (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7CBO9GhsUeMSsWQb47WTPZnKjdj.jpg" group-title="VOD - أفلام أجنبية",Ar Fifty Shades Darker (2017)
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/407641.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ar Fifty Shades Freed (2018)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9ZedQHPQVveaIYmDSTazhT3y273.jpg" group-title="VOD - أفلام أجنبية",Ar Fifty Shades Freed (2018)
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/407635.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Gr Ashes (2024)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9v7e4WvlEY4JnO62OEuw3zllmAP.jpg" group-title="GREECE",Gr Ashes (2024)
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/360069.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Fr Love Rosie (2014)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3QrXMvAvfIJDD2LydUV2IzEkhy8.jpg" group-title="OTHERS [FR]",Fr Love Rosie (2014)
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/403983.mp4
+#EXTINF:-1 tvg-id="" tvg-name="En 500 Days Of Summer (2009)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/f9mbM0YMLpYemcWx6o2WeiYQLDP.jpg" group-title="VOD - NEW [EN]",En 500 Days Of Summer (2009)
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/399660.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e01" tvg-logo="" group-title="Friends",Friends s01e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382950.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e02" tvg-logo="" group-title="Friends",Friends s01e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382952.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e03" tvg-logo="" group-title="Friends",Friends s01e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382955.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e04" tvg-logo="" group-title="Friends",Friends s01e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382957.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e05" tvg-logo="" group-title="Friends",Friends s01e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382960.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e06" tvg-logo="" group-title="Friends",Friends s01e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382962.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e07" tvg-logo="" group-title="Friends",Friends s01e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382964.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e08" tvg-logo="" group-title="Friends",Friends s01e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382966.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e09" tvg-logo="" group-title="Friends",Friends s01e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382968.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e10" tvg-logo="" group-title="Friends",Friends s01e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382971.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e11" tvg-logo="" group-title="Friends",Friends s01e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382973.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e12" tvg-logo="" group-title="Friends",Friends s01e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382974.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e13" tvg-logo="" group-title="Friends",Friends s01e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382977.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e14" tvg-logo="" group-title="Friends",Friends s01e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382979.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e15" tvg-logo="" group-title="Friends",Friends s01e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382980.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e16" tvg-logo="" group-title="Friends",Friends s01e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382983.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e17" tvg-logo="" group-title="Friends",Friends s01e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382984.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e18" tvg-logo="" group-title="Friends",Friends s01e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382985.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e19" tvg-logo="" group-title="Friends",Friends s01e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382986.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e20" tvg-logo="" group-title="Friends",Friends s01e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382987.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e21" tvg-logo="" group-title="Friends",Friends s01e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382988.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e22" tvg-logo="" group-title="Friends",Friends s01e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382989.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e23" tvg-logo="" group-title="Friends",Friends s01e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382991.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s01e24" tvg-logo="" group-title="Friends",Friends s01e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382993.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e01" tvg-logo="" group-title="Friends",Friends s02e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382994.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e02" tvg-logo="" group-title="Friends",Friends s02e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382995.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e03" tvg-logo="" group-title="Friends",Friends s02e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382997.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e04" tvg-logo="" group-title="Friends",Friends s02e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/382999.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e05" tvg-logo="" group-title="Friends",Friends s02e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383000.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e06" tvg-logo="" group-title="Friends",Friends s02e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383002.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e07" tvg-logo="" group-title="Friends",Friends s02e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383004.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e08" tvg-logo="" group-title="Friends",Friends s02e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383007.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e09" tvg-logo="" group-title="Friends",Friends s02e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383009.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e10" tvg-logo="" group-title="Friends",Friends s02e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383013.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e11" tvg-logo="" group-title="Friends",Friends s02e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383016.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e12" tvg-logo="" group-title="Friends",Friends s02e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383017.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e13" tvg-logo="" group-title="Friends",Friends s02e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383019.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e14" tvg-logo="" group-title="Friends",Friends s02e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383021.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e15" tvg-logo="" group-title="Friends",Friends s02e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383024.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e16" tvg-logo="" group-title="Friends",Friends s02e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383026.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e17" tvg-logo="" group-title="Friends",Friends s02e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383029.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e18" tvg-logo="" group-title="Friends",Friends s02e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383032.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e19" tvg-logo="" group-title="Friends",Friends s02e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383034.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e20" tvg-logo="" group-title="Friends",Friends s02e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383036.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e21" tvg-logo="" group-title="Friends",Friends s02e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383038.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e22" tvg-logo="" group-title="Friends",Friends s02e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383039.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e23" tvg-logo="" group-title="Friends",Friends s02e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383040.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s02e24" tvg-logo="" group-title="Friends",Friends s02e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383041.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e01" tvg-logo="" group-title="Friends",Friends s03e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383042.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e02" tvg-logo="" group-title="Friends",Friends s03e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383043.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e03" tvg-logo="" group-title="Friends",Friends s03e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383044.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e04" tvg-logo="" group-title="Friends",Friends s03e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383045.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e05" tvg-logo="" group-title="Friends",Friends s03e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383046.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e06" tvg-logo="" group-title="Friends",Friends s03e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383047.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e07" tvg-logo="" group-title="Friends",Friends s03e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383048.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e08" tvg-logo="" group-title="Friends",Friends s03e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383049.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e09" tvg-logo="" group-title="Friends",Friends s03e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383050.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e10" tvg-logo="" group-title="Friends",Friends s03e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383051.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e11" tvg-logo="" group-title="Friends",Friends s03e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383054.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e12" tvg-logo="" group-title="Friends",Friends s03e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383057.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e13" tvg-logo="" group-title="Friends",Friends s03e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383060.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e14" tvg-logo="" group-title="Friends",Friends s03e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383062.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e15" tvg-logo="" group-title="Friends",Friends s03e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383066.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e16" tvg-logo="" group-title="Friends",Friends s03e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383067.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e17" tvg-logo="" group-title="Friends",Friends s03e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383068.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e18" tvg-logo="" group-title="Friends",Friends s03e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383069.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e19" tvg-logo="" group-title="Friends",Friends s03e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383070.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e20" tvg-logo="" group-title="Friends",Friends s03e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383071.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e21" tvg-logo="" group-title="Friends",Friends s03e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383073.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e22" tvg-logo="" group-title="Friends",Friends s03e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383075.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e23" tvg-logo="" group-title="Friends",Friends s03e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383078.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e24" tvg-logo="" group-title="Friends",Friends s03e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383082.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s03e25" tvg-logo="" group-title="Friends",Friends s03e25
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383084.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e01" tvg-logo="" group-title="Friends",Friends s04e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383087.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e02" tvg-logo="" group-title="Friends",Friends s04e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383090.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e03" tvg-logo="" group-title="Friends",Friends s04e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383093.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e04" tvg-logo="" group-title="Friends",Friends s04e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383094.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e05" tvg-logo="" group-title="Friends",Friends s04e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383096.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e06" tvg-logo="" group-title="Friends",Friends s04e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383098.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e07" tvg-logo="" group-title="Friends",Friends s04e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383099.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e08" tvg-logo="" group-title="Friends",Friends s04e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383101.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e09" tvg-logo="" group-title="Friends",Friends s04e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383102.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e10" tvg-logo="" group-title="Friends",Friends s04e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383104.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e11" tvg-logo="" group-title="Friends",Friends s04e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383105.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e12" tvg-logo="" group-title="Friends",Friends s04e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383106.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e13" tvg-logo="" group-title="Friends",Friends s04e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383107.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e14" tvg-logo="" group-title="Friends",Friends s04e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383109.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e15" tvg-logo="" group-title="Friends",Friends s04e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383110.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e16" tvg-logo="" group-title="Friends",Friends s04e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383111.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e17" tvg-logo="" group-title="Friends",Friends s04e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383112.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e18" tvg-logo="" group-title="Friends",Friends s04e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383113.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e19" tvg-logo="" group-title="Friends",Friends s04e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383114.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e20" tvg-logo="" group-title="Friends",Friends s04e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383115.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e21" tvg-logo="" group-title="Friends",Friends s04e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383116.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e22" tvg-logo="" group-title="Friends",Friends s04e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383117.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e23" tvg-logo="" group-title="Friends",Friends s04e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383118.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s04e24" tvg-logo="" group-title="Friends",Friends s04e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383119.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s05e01" tvg-logo="" group-title="Friends",Friends s05e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383120.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s05e02" tvg-logo="" group-title="Friends",Friends s05e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383121.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s05e03" tvg-logo="" group-title="Friends",Friends s05e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383122.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s05e04" tvg-logo="" group-title="Friends",Friends s05e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383123.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e01" tvg-logo="" group-title="Friends",Friends s06e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383128.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e02" tvg-logo="" group-title="Friends",Friends s06e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383129.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e03" tvg-logo="" group-title="Friends",Friends s06e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383130.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e04" tvg-logo="" group-title="Friends",Friends s06e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383131.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e05" tvg-logo="" group-title="Friends",Friends s06e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383132.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e06" tvg-logo="" group-title="Friends",Friends s06e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383133.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e07" tvg-logo="" group-title="Friends",Friends s06e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383134.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e08" tvg-logo="" group-title="Friends",Friends s06e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383135.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e09" tvg-logo="" group-title="Friends",Friends s06e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383136.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e10" tvg-logo="" group-title="Friends",Friends s06e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383137.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e11" tvg-logo="" group-title="Friends",Friends s06e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383138.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e12" tvg-logo="" group-title="Friends",Friends s06e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383139.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e13" tvg-logo="" group-title="Friends",Friends s06e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383140.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e14" tvg-logo="" group-title="Friends",Friends s06e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383141.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e15" tvg-logo="" group-title="Friends",Friends s06e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383142.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e16" tvg-logo="" group-title="Friends",Friends s06e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383143.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e17" tvg-logo="" group-title="Friends",Friends s06e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383144.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e18" tvg-logo="" group-title="Friends",Friends s06e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383145.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e19" tvg-logo="" group-title="Friends",Friends s06e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383146.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e20" tvg-logo="" group-title="Friends",Friends s06e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383147.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e21" tvg-logo="" group-title="Friends",Friends s06e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383148.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e22" tvg-logo="" group-title="Friends",Friends s06e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383149.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e23" tvg-logo="" group-title="Friends",Friends s06e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383150.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e24" tvg-logo="" group-title="Friends",Friends s06e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383151.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s06e25" tvg-logo="" group-title="Friends",Friends s06e25
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383152.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e01" tvg-logo="" group-title="Friends",Friends s07e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383153.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e02" tvg-logo="" group-title="Friends",Friends s07e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383154.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e03" tvg-logo="" group-title="Friends",Friends s07e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383155.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e04" tvg-logo="" group-title="Friends",Friends s07e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383156.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e05" tvg-logo="" group-title="Friends",Friends s07e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383157.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e06" tvg-logo="" group-title="Friends",Friends s07e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383158.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e07" tvg-logo="" group-title="Friends",Friends s07e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383159.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e08" tvg-logo="" group-title="Friends",Friends s07e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383160.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e09" tvg-logo="" group-title="Friends",Friends s07e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383161.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e10" tvg-logo="" group-title="Friends",Friends s07e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383163.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e11" tvg-logo="" group-title="Friends",Friends s07e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383166.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e12" tvg-logo="" group-title="Friends",Friends s07e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383167.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e13" tvg-logo="" group-title="Friends",Friends s07e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383168.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e14" tvg-logo="" group-title="Friends",Friends s07e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383169.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e15" tvg-logo="" group-title="Friends",Friends s07e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383171.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e16" tvg-logo="" group-title="Friends",Friends s07e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383172.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e17" tvg-logo="" group-title="Friends",Friends s07e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383173.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e18" tvg-logo="" group-title="Friends",Friends s07e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383174.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e19" tvg-logo="" group-title="Friends",Friends s07e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383175.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e20" tvg-logo="" group-title="Friends",Friends s07e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383176.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e21" tvg-logo="" group-title="Friends",Friends s07e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383177.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e22" tvg-logo="" group-title="Friends",Friends s07e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383178.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e23" tvg-logo="" group-title="Friends",Friends s07e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383179.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s07e24" tvg-logo="" group-title="Friends",Friends s07e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383180.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e01" tvg-logo="" group-title="Friends",Friends s08e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383181.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e02" tvg-logo="" group-title="Friends",Friends s08e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383182.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e03" tvg-logo="" group-title="Friends",Friends s08e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383183.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e04" tvg-logo="" group-title="Friends",Friends s08e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383184.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e05" tvg-logo="" group-title="Friends",Friends s08e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383185.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e06" tvg-logo="" group-title="Friends",Friends s08e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383186.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e07" tvg-logo="" group-title="Friends",Friends s08e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383187.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e08" tvg-logo="" group-title="Friends",Friends s08e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383188.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e09" tvg-logo="" group-title="Friends",Friends s08e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383189.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e10" tvg-logo="" group-title="Friends",Friends s08e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383191.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e11" tvg-logo="" group-title="Friends",Friends s08e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383192.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e12" tvg-logo="" group-title="Friends",Friends s08e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383193.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e13" tvg-logo="" group-title="Friends",Friends s08e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383194.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e14" tvg-logo="" group-title="Friends",Friends s08e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383195.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e15" tvg-logo="" group-title="Friends",Friends s08e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383196.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e16" tvg-logo="" group-title="Friends",Friends s08e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383197.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e17" tvg-logo="" group-title="Friends",Friends s08e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383198.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e18" tvg-logo="" group-title="Friends",Friends s08e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383199.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e19" tvg-logo="" group-title="Friends",Friends s08e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383201.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e20" tvg-logo="" group-title="Friends",Friends s08e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383202.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e21" tvg-logo="" group-title="Friends",Friends s08e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383203.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e22" tvg-logo="" group-title="Friends",Friends s08e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383204.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e23" tvg-logo="" group-title="Friends",Friends s08e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383206.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s08e24" tvg-logo="" group-title="Friends",Friends s08e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383207.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e01" tvg-logo="" group-title="Friends",Friends s09e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383208.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e02" tvg-logo="" group-title="Friends",Friends s09e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383209.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e03" tvg-logo="" group-title="Friends",Friends s09e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383210.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e04" tvg-logo="" group-title="Friends",Friends s09e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383211.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e05" tvg-logo="" group-title="Friends",Friends s09e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383212.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e06" tvg-logo="" group-title="Friends",Friends s09e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383213.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e07" tvg-logo="" group-title="Friends",Friends s09e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383214.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e08" tvg-logo="" group-title="Friends",Friends s09e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383215.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e09" tvg-logo="" group-title="Friends",Friends s09e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383216.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e10" tvg-logo="" group-title="Friends",Friends s09e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383217.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e11" tvg-logo="" group-title="Friends",Friends s09e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383218.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e12" tvg-logo="" group-title="Friends",Friends s09e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383219.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e13" tvg-logo="" group-title="Friends",Friends s09e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383220.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e14" tvg-logo="" group-title="Friends",Friends s09e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383221.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e15" tvg-logo="" group-title="Friends",Friends s09e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383222.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e16" tvg-logo="" group-title="Friends",Friends s09e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383224.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e17" tvg-logo="" group-title="Friends",Friends s09e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383225.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e18" tvg-logo="" group-title="Friends",Friends s09e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383226.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e19" tvg-logo="" group-title="Friends",Friends s09e19
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383227.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e20" tvg-logo="" group-title="Friends",Friends s09e20
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383228.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e21" tvg-logo="" group-title="Friends",Friends s09e21
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383229.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e22" tvg-logo="" group-title="Friends",Friends s09e22
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383230.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e23" tvg-logo="" group-title="Friends",Friends s09e23
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383232.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s09e24" tvg-logo="" group-title="Friends",Friends s09e24
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383233.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e01" tvg-logo="" group-title="Friends",Friends s10e01
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383235.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e02" tvg-logo="" group-title="Friends",Friends s10e02
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383236.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e03" tvg-logo="" group-title="Friends",Friends s10e03
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383237.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e04" tvg-logo="" group-title="Friends",Friends s10e04
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383238.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e05" tvg-logo="" group-title="Friends",Friends s10e05
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383240.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e06" tvg-logo="" group-title="Friends",Friends s10e06
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383241.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e07" tvg-logo="" group-title="Friends",Friends s10e07
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383242.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e08" tvg-logo="" group-title="Friends",Friends s10e08
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383243.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e09" tvg-logo="" group-title="Friends",Friends s10e09
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383244.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e10" tvg-logo="" group-title="Friends",Friends s10e10
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383245.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e11" tvg-logo="" group-title="Friends",Friends s10e11
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383246.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e12" tvg-logo="" group-title="Friends",Friends s10e12
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383247.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e13" tvg-logo="" group-title="Friends",Friends s10e13
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383248.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e14" tvg-logo="" group-title="Friends",Friends s10e14
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383249.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e15" tvg-logo="" group-title="Friends",Friends s10e15
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383250.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e16" tvg-logo="" group-title="Friends",Friends s10e16
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383251.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e17" tvg-logo="" group-title="Friends",Friends s10e17
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383252.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friends s10e18" tvg-logo="" group-title="Friends",Friends s10e18
+http://b.delta2022.xyz:8880/series/93077051k/7513819649/383253.mp4
