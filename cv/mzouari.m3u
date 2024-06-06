@@ -16,6 +16,13 @@ http://b.delta2022.xyz:8880/movie/93077051k/7513819649/360069.mp4
 http://b.delta2022.xyz:8880/movie/93077051k/7513819649/403983.mp4
 #EXTINF:-1 tvg-id="" tvg-name="En 500 Days Of Summer (2009)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/f9mbM0YMLpYemcWx6o2WeiYQLDP.jpg" group-title="VOD - NEW [EN]",En 500 Days Of Summer (2009)
 http://b.delta2022.xyz:8880/movie/93077051k/7513819649/399660.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Fr Oppenheimer 2023 1080p" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/boAUuJBeID7VNp4L7LNMQs8mfQS.jpg" group-title="RECEMMENT AJOUTER [FR]",Fr Oppenheimer 2023 1080p
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/390780.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Fr Oppenheimer 2023 720p" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/boAUuJBeID7VNp4L7LNMQs8mfQS.jpg" group-title="RECEMMENT AJOUTER [FR]",Fr Oppenheimer 2023 720p
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/390598.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Fr Killers Of The Flower Moon (2023)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fLVZcHRud9e8yI5sktUGbSOMJEO.jpg" group-title="RECEMMENT AJOUTER [FR]",Fr Killers Of The Flower Moon (2023)
+http://b.delta2022.xyz:8880/movie/93077051k/7513819649/389991.mp4
+
 
 #EXTINF:-1 tvg-id="" tvg-name="Friends s01e01" tvg-logo="" group-title="Friends",Friends s01e01
 http://b.delta2022.xyz:8880/series/93077051k/7513819649/382950.mp4
