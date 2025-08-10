@@ -5,19 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculateur de Crédit Immobilier</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        label, input {
-            display: block;
-            margin-bottom: 10px;
-        }
-        button {
-            margin-top: 20px;
-        }
-        #result {
-            margin-top: 20px;
-        }
+        body { font-family: Arial, sans-serif; }
+        label, input { display: block; margin-bottom: 8px; }
+        button { margin-top: 15px; }
+        #credits-container { margin-bottom: 20px; }
+        #result { margin-top: 20px; white-space: pre-line; }
     </style>
     <script>
         function calculMensualite(montant, taux_annuel, duree_annees) {
@@ -26,69 +18,77 @@
             }
             const taux_mensuel = taux_annuel / 12 / 100;
             const nombre_mensualites = duree_annees * 12;
-            const mensualite = montant * taux_mensuel / (1 - Math.pow(1 + taux_mensuel, -nombre_mensualites));
-            return mensualite;
+            return montant * taux_mensuel / (1 - Math.pow(1 + taux_mensuel, -nombre_mensualites));
+        }
+
+        function genererChampsCredits() {
+            const nbCredits = parseInt(document.getElementById('nbCredits').value) || 3;
+            const container = document.getElementById('credits-container');
+            container.innerHTML = '';
+
+            for (let i = 1; i <= nbCredits; i++) {
+                container.innerHTML += `
+                    <h3>Crédit ${i}</h3>
+                    <label>Montant (€) :</label>
+                    <input type="number" id="montant${i}" required>
+                    <label>Taux (%) :</label>
+                    <input type="number" step="0.01" id="taux${i}" required>
+                `;
+            }
         }
 
         function calculerMensualite(event) {
             event.preventDefault();
-
-            const montant1 = parseFloat(document.getElementById('montant1').value);
-            const montant2 = parseFloat(document.getElementById('montant2').value);
-            const montant3 = parseFloat(document.getElementById('montant3').value);
-            const taux1 = parseFloat(document.getElementById('taux1').value);
-            const taux2 = parseFloat(document.getElementById('taux2').value);
-            const taux3 = parseFloat(document.getElementById('taux3').value);
+            const nbCredits = parseInt(document.getElementById('nbCredits').value) || 3;
             const apport = parseFloat(document.getElementById('apport').value);
             const duree = parseInt(document.getElementById('duree').value);
 
-            const mensualite_1 = calculMensualite(montant1, taux1, duree);
-            const mensualite_2 = calculMensualite(montant2, taux2, duree);
-            const mensualite_3 = calculMensualite(montant3, taux3, duree);
+            let mensualiteTotale = 0;
+            let totalPret = 0;
+            let resultText = "";
 
-            const mensualite_totale = mensualite_1 + mensualite_2 + mensualite_3;
-            const total_pret = montant1 + montant2 + montant3;
-            const total_investissement = apport + total_pret;
+            for (let i = 1; i <= nbCredits; i++) {
+                const montant = parseFloat(document.getElementById(`montant${i}`).value);
+                const taux = parseFloat(document.getElementById(`taux${i}`).value);
+                const mensualite = calculMensualite(montant, taux, duree);
 
-            const interet_mensuel_3 = montant3 * (taux3 / 100 / 12);
-            const interet_3_multiple = 6 * interet_mensuel_3;
+                mensualiteTotale += mensualite;
+                totalPret += montant;
+                resultText += `Mensualité du crédit ${i} : ${mensualite.toFixed(2)} €\n`;
 
-            document.getElementById('result').innerText = `Mensualité totale : ${mensualite_totale.toFixed(2)} €\n` +
-                `Mensualité du crédit 1 : ${mensualite_1.toFixed(2)} €\n` +
-                `Mensualité du crédit 2 : ${mensualite_2.toFixed(2)} €\n` +
-                `Mensualité du crédit 3 : ${mensualite_3.toFixed(2)} €\n` +
-                `Total des prêts : ${total_pret.toFixed(2)} €\n` +
-                `Total de l'investissement (apport + prêts) : ${total_investissement.toFixed(2)} €\n` +
-                `6 fois l'intérêt du troisième crédit : ${interet_3_multiple.toFixed(2)} €`;
+                // Spécial pour 3ème crédit → calcul 6x intérêt
+                if (i === 3) {
+                    const interetMensuel = montant * (taux / 100 / 12);
+                    const interetMultiple = 6 * interetMensuel;
+                    resultText += `6 fois l'intérêt du crédit 3 : ${interetMultiple.toFixed(2)} €\n`;
+                }
+            }
+
+            const totalInvestissement = apport + totalPret;
+
+            document.getElementById('result').innerText =
+                `Mensualité totale : ${mensualiteTotale.toFixed(2)} €\n` +
+                resultText +
+                `Total des prêts : ${totalPret.toFixed(2)} €\n` +
+                `Total de l'investissement (apport + prêts) : ${totalInvestissement.toFixed(2)} €`;
         }
+
+        window.onload = genererChampsCredits;
     </script>
 </head>
 <body>
     <h1>Calculateur de Crédit Immobilier</h1>
     <form onsubmit="calculerMensualite(event)">
-        <label for="montant1">Montant premier crédit (€) :</label>
-        <input type="number" id="montant1" name="montant1" required><br>
+        <label>Nombre de crédits :</label>
+        <input type="number" id="nbCredits" value="3" min="1" onchange="genererChampsCredits()">
 
-        <label for="montant2">Montant deuxième crédit (€) :</label>
-        <input type="number" id="montant2" name="montant2" required><br>
+        <div id="credits-container"></div>
 
-        <label for="montant3">Montant troisième crédit (€) :</label>
-        <input type="number" id="montant3" name="montant3" required><br>
+        <label>Apport initial (€) :</label>
+        <input type="number" id="apport" required>
 
-        <label for="taux1">Taux premier crédit (%) :</label>
-        <input type="number" step="0.01" id="taux1" name="taux1" required><br>
-
-        <label for="taux2">Taux deuxième crédit (%) :</label>
-        <input type="number" step="0.01" id="taux2" name="taux2" required><br>
-
-        <label for="taux3">Taux troisième crédit (%) :</label>
-        <input type="number" step="0.01" id="taux3" name="taux3" required><br>
-
-        <label for="apport">Apport initial (€) :</label>
-        <input type="number" id="apport" name="apport" required><br>
-
-        <label for="duree">Durée (années) :</label>
-        <input type="number" id="duree" name="duree" required><br>
+        <label>Durée (années) :</label>
+        <input type="number" id="duree" required>
 
         <button type="submit">Calculer</button>
     </form>
@@ -96,4 +96,3 @@
     <div id="result"></div>
 </body>
 </html>
-
