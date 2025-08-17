@@ -19,6 +19,7 @@ body {
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
   max-width: 600px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -27,48 +28,58 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem; /* consistent spacing */
+}
+
 label {
-  display: block;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
   font-weight: 500;
+  margin-bottom: 0.3rem;
+  display: block;
 }
 
 input, select {
   width: 100%;
-  padding: 0.8rem;
+  max-width: 100%; /* prevent overflow */
+  padding: 0.8rem 1rem;
   border: 1px solid #d2d2d7;
   border-radius: 12px;
   font-size: 1rem;
   outline: none;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box; /* ensures padding doesn’t break width */
 }
 
 input:focus, select:focus {
   border-color: #0071e3;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.2);
 }
 
 .credit-card {
   padding: 1rem;
-  margin-top: 1rem;
   border: 1px solid #e5e5ea;
   border-radius: 12px;
   background: #fafafa;
 }
 
 .credit-card h3 {
-  margin-top: 0;
+  margin: 0 0 1rem 0;
 }
 
 .buttons {
   display: flex;
+  justify-content: center;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap; /* keeps buttons aligned on mobile */
 }
 
 button {
   flex: 1;
-  padding: 0.8rem;
+  min-width: 120px;
+  padding: 0.9rem;
   border: none;
   border-radius: 12px;
   font-size: 1rem;
@@ -100,8 +111,10 @@ button:active {
 
 #result {
   margin-top: 2rem;
-  padding: 1rem;
+  padding: 1.2rem;
   border-radius: 12px;
   background: #f9f9fb;
   white-space: pre-line;
+  font-size: 1rem;
+  line-height: 1.5;
 }
