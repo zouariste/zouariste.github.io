@@ -1,0 +1,47 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.music-player {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#songList {
+    margin-top: 20px;
+}
+
+#songList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#songList li {
+    margin-bottom: 5px;
+}
+
+#songList li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+#songList li a:hover {
+    background-color: #e0e0e0;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
