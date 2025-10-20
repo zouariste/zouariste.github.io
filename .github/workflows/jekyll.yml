@@ -12,9 +12,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+      - uses: actions/checkout@v2
+
+      # Check for changes in playlist/ and run Python script
+      - name: Run pre-deploy Python script if playlist/ changed
+        run: |
+          if git diff --name-only HEAD~1 HEAD | grep -q '^playlist/'; then
+            echo "Changes detected in playlist/, running script..."
+            cd playlist
+            python generate_html.py
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add .
+            git commit -m "Pre-deploy file edits" || echo "No changes to commit"
+            git push
+          else
+            echo "No changes in playlist/, skipping script"
+          fi
+
+      - name: Build the site in the jekyll/builder container
+        run: |
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
