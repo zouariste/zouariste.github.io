@@ -18,9 +18,10 @@ jobs:
 
       - name: Run Python script
         run: |
-	      cd playlist
-		  python generate_html.py
+          cd playlist
+          python generate_html.py
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add .
-          git commit -m "Pre-deploy file edits"
+          git commit -m "Pre-deploy file edits" || echo "No changes to commit"
           git push
-
