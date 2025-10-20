@@ -18,7 +18,8 @@ jobs:
 
       - name: Run Python script
         run: |
-	      cd playlist && python generate_html.py
+	      cd playlist
+		  python generate_html.py
           git add .
           git commit -m "Pre-deploy file edits"
           git push
