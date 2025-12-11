@@ -1,0 +1,28 @@
+<aside class="site-sidebar">
+  <div class="site-sidebar-inner h-card">
+    <a href="{{ '/' | relative_url }}" rel="me" class="person u-url">
+      <div class="person-avatar u-photo">
+        <img src="{{ '/images/avatar.png' | relative_url }}" alt="{{ site.author.name }}" class="avatar">
+      </div>
+      <div class="person-content">
+        <h1 class="person-title p-name">{{ site.author.name }}</h1>
+        <h2 class="person-subtitle p-job-title p-note">{{ site.author.title }}</h2>
+      </div>
+    </a>
+
+    {% include navigation.html %}
+
+    <div class="block block-social">
+      <div class="block-title">Get in touch</div>
+      <div class="block-content">
+        <div class="social-icons">
+          {% for link in site.data.social.links %}
+          <a href="{{ link.url }}" {% if link.username %}rel="me" class="button button-icon" title="{{ link.title }}: {{ link.username }}"{% endif %}>
+            <i class="icon fa {{ link.icon }}"></i>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>

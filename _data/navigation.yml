@@ -1,0 +1,28 @@
+# Main navigation links
+main:
+  - title: Summary
+    url: /summary/
+
+  - title: Portfolio
+    url: /portfolio/
+
+  - title: Work Experience
+    url: /experience/
+
+secondary:
+  - title: Certifications
+    url: /certifications/
+
+  - title: References
+    url: /references/
+
+  - title: External Activities
+    url: /externalactivities/
+
+footer:
+  - title: My Resume
+    url: /cv/Mohameds-Resume.pdf
+    target: _blank
+
+  - title: Contact me
+    url: /contact/

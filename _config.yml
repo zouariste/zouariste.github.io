@@ -1,0 +1,58 @@
+# Jekyll Configuration
+# ===================
+
+# Site settings
+title: Mohamed Zouari - Software Engineer
+description: >-
+  2x AWS Certified {SAA-C03, DVA-C01} Software Engineer with a background
+  working effectively in a dynamic multinational enterprise environment.
+
+author:
+  name: Mohamed Zouari
+  email: mzouari@outlook.com
+  title: Software Engineer
+  linkedin: mohamed-zouari
+  github: zouariste
+  stackoverflow: 11797839/mohamed-zouari
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - README.md
+  - REFACTORING.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Collections (if needed for blog posts in the future)
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Theme color
+theme_color: "#0a66c2"
+
+# Site URL (for production on GitHub Pages)
+url: "https://zouariste.github.io"
+baseurl: ""
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Disqus
+disqus:
+  shortname: mzouari

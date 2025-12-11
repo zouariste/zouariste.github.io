@@ -1,0 +1,20 @@
+# Social media links
+links:
+  - title: Email
+    url: mailto:mzouari@outlook.com
+    icon: fa-envelope
+
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/mohamed-zouari
+    icon: fa-linkedin-square
+    username: mohamed-zouari
+
+  - title: GitHub
+    url: https://github.com/zouariste
+    icon: fa-github-square
+    username: zouariste
+
+  - title: Stack Overflow
+    url: https://stackoverflow.com/users/11797839/mohamed-zouari
+    icon: fa-stack-overflow
+    username: mohamed-zouari
