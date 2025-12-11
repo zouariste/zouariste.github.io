@@ -1,6 +1,6 @@
 # Mohamed Zouari - Portfolio Website
 
-A modern, Jekyll-powered portfolio website showcasing my work as a Software Engineer.
+A modern, Jekyll-powered portfolio website showcasing my work as a Senior Software Engineer.
 
 ## 🚀 Features
 
