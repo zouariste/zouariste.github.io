@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "a3390e27-0f11-470f-9f76-2b21ef914ae1",
+      "logo": {
+        "imageUrl": "b96029f3-a8e8-4d57-9101-9df018446119/0374e396-d792-4502-baae-460f649a0b6d.png",
+        "destinationUrl": "https://x.com/MidnightNtwrk/status/1973009406024733000",
+        "alt": "Cardano",
+        "companyName": "Cardano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "b96029f3-a8e8-4d57-9101-9df018446119/b0afe859-f13b-4492-b830-3a6f20fc6671.jpg",
+          "creativeInstanceId": "f768a5c6-48cd-4720-88d5-ba8abe47c000",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "8b2c1928-2ffb-4ab4-bbc0-11d2c7220e34/694c3cdc-e205-471a-b770-f5d4c911578d.jpg",
+          "creativeInstanceId": "34ea3599-f6b6-4ba9-864a-0a056ce59325",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "8b2c1928-2ffb-4ab4-bbc0-11d2c7220e34/8baf9c1e-c64b-4265-8e2f-fc36eeffa890.png",
+            "destinationUrl": "https://x.com/MidnightNtwrk/status/1973009406024733000",
+            "alt": "Cardano",
+            "companyName": "Cardano"
+          }
+        },
+        {
+          "imageUrl": "f7c9372b-f581-407c-ad20-47fc87c017e5/f57fc700-3d64-447b-9894-b1de5112f3dd.jpg",
+          "creativeInstanceId": "55c0f9e2-7047-4fe5-8867-6cf9b6d6c935",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "f7c9372b-f581-407c-ad20-47fc87c017e5/361337b1-6d37-4792-8674-dac32ec81eac.png",
+            "destinationUrl": "https://x.com/MidnightNtwrk/status/1973009406024733000",
+            "alt": "Cardano",
+            "companyName": "Cardano"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "a3390e27-0f11-470f-9f76-2b21ef914ae1",
+      "logo": {
+        "imageUrl": "b96029f3-a8e8-4d57-9101-9df018446119/0374e396-d792-4502-baae-460f649a0b6d.png",
+        "destinationUrl": "https://x.com/MidnightNtwrk/status/1973009406024733000",
+        "alt": "Cardano",
+        "companyName": "Cardano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "b96029f3-a8e8-4d57-9101-9df018446119/b0afe859-f13b-4492-b830-3a6f20fc6671.jpg",
+          "creativeInstanceId": "f768a5c6-48cd-4720-88d5-ba8abe47c000",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "8b2c1928-2ffb-4ab4-bbc0-11d2c7220e34/694c3cdc-e205-471a-b770-f5d4c911578d.jpg",
+          "creativeInstanceId": "34ea3599-f6b6-4ba9-864a-0a056ce59325",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "8b2c1928-2ffb-4ab4-bbc0-11d2c7220e34/8baf9c1e-c64b-4265-8e2f-fc36eeffa890.png",
+            "destinationUrl": "https://x.com/MidnightNtwrk/status/1973009406024733000",
+            "alt": "Cardano",
+            "companyName": "Cardano"
+          }
+        },
+        {
+          "imageUrl": "f7c9372b-f581-407c-ad20-47fc87c017e5/f57fc700-3d64-447b-9894-b1de5112f3dd.jpg",
+          "creativeInstanceId": "55c0f9e2-7047-4fe5-8867-6cf9b6d6c935",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "f7c9372b-f581-407c-ad20-47fc87c017e5/361337b1-6d37-4792-8674-dac32ec81eac.png",
+            "destinationUrl": "https://x.com/MidnightNtwrk/status/1973009406024733000",
+            "alt": "Cardano",
+            "companyName": "Cardano"
+          }
+        }
+      ]
+    }
+  ]
+}

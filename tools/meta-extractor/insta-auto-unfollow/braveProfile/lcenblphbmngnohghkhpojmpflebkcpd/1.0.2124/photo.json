@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "01a9f822-20a0-447e-8bfb-89ee0ef99027",
+      "logo": {
+        "imageUrl": "bdca68a3-37d2-4b54-8ae2-668551cc103f/2297758d-3212-4024-83a0-daa8e037403b.png",
+        "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=621dca1e-d33e-4843-bbee-5b18d1a35056",
+        "alt": "Brave Search - AI-powered answers ro almost any question, fast and accurate - learn more",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "bdca68a3-37d2-4b54-8ae2-668551cc103f/0df175d8-451e-4424-a77e-b2586cf69197.jpg",
+          "creativeInstanceId": "621dca1e-d33e-4843-bbee-5b18d1a35056",
+          "focalPoint": {
+            "x": 1308,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "2d3d0993-fc4a-48da-8d0b-5f3eb50bb82c/f2a8ed42-f919-43a0-b851-58a9b9e04e4c.jpg",
+          "creativeInstanceId": "2f2ce858-26d9-4ae6-b8ec-9efd4b6096b8",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "2d3d0993-fc4a-48da-8d0b-5f3eb50bb82c/2297758d-3212-4024-83a0-daa8e037403b.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=2f2ce858-26d9-4ae6-b8ec-9efd4b6096b8",
+            "alt": "Brave Search - AI-powered answers ro almost any question, fast and accurate - learn more",
+            "companyName": "Brave"
+          }
+        },
+        {
+          "imageUrl": "311a386a-68d4-4c9f-a82a-2f0961a44dbf/36c6de45-6688-48e3-a9f5-be15c252eabc.jpg",
+          "creativeInstanceId": "5075e649-12c3-446a-9817-8a8c21ed1c92",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "311a386a-68d4-4c9f-a82a-2f0961a44dbf/2297758d-3212-4024-83a0-daa8e037403b.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=5075e649-12c3-446a-9817-8a8c21ed1c92",
+            "alt": "Brave Search - AI-powered answers ro almost any question, fast and accurate - learn more",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "01a9f822-20a0-447e-8bfb-89ee0ef99027",
+      "logo": {
+        "imageUrl": "bdca68a3-37d2-4b54-8ae2-668551cc103f/2297758d-3212-4024-83a0-daa8e037403b.png",
+        "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=621dca1e-d33e-4843-bbee-5b18d1a35056",
+        "alt": "Brave Search - AI-powered answers ro almost any question, fast and accurate - learn more",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "bdca68a3-37d2-4b54-8ae2-668551cc103f/0df175d8-451e-4424-a77e-b2586cf69197.jpg",
+          "creativeInstanceId": "621dca1e-d33e-4843-bbee-5b18d1a35056",
+          "focalPoint": {
+            "x": 1308,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "2d3d0993-fc4a-48da-8d0b-5f3eb50bb82c/f2a8ed42-f919-43a0-b851-58a9b9e04e4c.jpg",
+          "creativeInstanceId": "2f2ce858-26d9-4ae6-b8ec-9efd4b6096b8",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "2d3d0993-fc4a-48da-8d0b-5f3eb50bb82c/2297758d-3212-4024-83a0-daa8e037403b.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=2f2ce858-26d9-4ae6-b8ec-9efd4b6096b8",
+            "alt": "Brave Search - AI-powered answers ro almost any question, fast and accurate - learn more",
+            "companyName": "Brave"
+          }
+        },
+        {
+          "imageUrl": "311a386a-68d4-4c9f-a82a-2f0961a44dbf/36c6de45-6688-48e3-a9f5-be15c252eabc.jpg",
+          "creativeInstanceId": "5075e649-12c3-446a-9817-8a8c21ed1c92",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "311a386a-68d4-4c9f-a82a-2f0961a44dbf/2297758d-3212-4024-83a0-daa8e037403b.png",
+            "destinationUrl": "https://search.brave.com/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-search&mtm_content=5075e649-12c3-446a-9817-8a8c21ed1c92",
+            "alt": "Brave Search - AI-powered answers ro almost any question, fast and accurate - learn more",
+            "companyName": "Brave"
+          }
+        }
+      ]
+    }
+  ]
+}
