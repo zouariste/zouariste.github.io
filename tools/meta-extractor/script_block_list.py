@@ -5,7 +5,7 @@ from io import BytesIO
 import base64
 
 # Load your HTML
-with open("blocks.html", "r", encoding="utf-8") as f:
+with open("sample-blocks.html", "r", encoding="utf-8") as f:
     html = f.read()
 
 soup = BeautifulSoup(html, "html.parser")
