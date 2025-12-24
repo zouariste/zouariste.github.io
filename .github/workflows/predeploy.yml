@@ -18,7 +18,7 @@ jobs:
 
       - name: Run Python script
         run: |
-          cd playlist
+          cd tools/playlist
           python generate_html.py
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
