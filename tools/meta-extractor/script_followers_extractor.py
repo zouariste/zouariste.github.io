@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-INPUT_FILE = "blocks.html"
+INPUT_FILE = "sample-followers.html"
 OUTPUT_FILE = "output-ahmedsana.html"
 IMG_DIR = "images"
 
