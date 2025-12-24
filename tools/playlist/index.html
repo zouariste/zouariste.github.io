@@ -4,20 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse and play songs from Mohamed Zouari's curated music library featuring Arabic, French, Tunisian, and Western tracks">
+    <meta name="author" content="Mohamed Zouari">
+    <meta name="keywords" content="music player, playlist, arabic music, french music, western music, online player">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mohamed Zouari's Music Library">
+    <meta property="og:description" content="Curated music library featuring diverse international tracks">
+
     <title>MZ's Player</title>
+
+    <!-- Preconnect to external resources for better performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style.css">
+    <style>
+        .navigation-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            border-radius: 12px;
+            margin: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .nav-link {
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-size: 14px;
+            border: 2px solid transparent;
+        }
+        .nav-link:hover {
+            background: #ffffff;
+            color: #764ba2;
+            border-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+        .nav-link:active {
+            transform: translateY(0);
+        }
+        .nav-link:first-child {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        .nav-link:first-child:hover {
+            background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+            box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4);
+        }
+    </style>
 </head>
 <body>
     <div class="app-container">
-        <header>
+        <nav class="navigation-header" aria-label="Main navigation">
+            <a href="../../index.html" class="nav-link" aria-label="Return to homepage">← Home</a>
+            <a href="../index.html" class="nav-link" aria-label="Return to tools">← Back to Tools</a>
+        </nav>
+        <header role="banner">
             <h1>Mohamed Zouari's Library</h1>
         </header>
-        
-        <main id="album-list">
+
+        <main id="album-list" role="main" aria-label="Music library">
     
             <div class="album-card">
                 <div class="album-header">
@@ -111,12 +171,12 @@
             
         </main>
 
-        <footer class="player-bar">
-            <div id="now-playing">
-                <span class="material-symbols-outlined">music_note</span>
+        <footer class="player-bar" role="contentinfo">
+            <div id="now-playing" aria-live="polite" aria-atomic="true">
+                <span class="material-symbols-outlined" aria-hidden="true">music_note</span>
                 <p>Select a song to play</p>
             </div>
-            <audio controls id="audio-player">
+            <audio controls id="audio-player" aria-label="Audio player">
                 Your browser does not support the audio element.
             </audio>
         </footer>

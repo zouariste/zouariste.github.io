@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Analyze your Facebook and Instagram data - Extract followers, following lists, and find unfollowers">
+    <meta name="author" content="Mohamed Zouari">
+    <meta name="keywords" content="meta extractor, facebook, instagram, followers, unfollowers, social media analytics">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Meta Extractor - Social Media Analyzer">
+    <meta property="og:description" content="Analyze your Facebook and Instagram connections">
+
+    <title>Meta Extractor - Facebook & Instagram Analyzer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: 12px 24px;
+            border: none;
+            background: #f0f0f0;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .tab-btn:hover {
+            background: #e0e0e0;
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .platform-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .platform-badge.facebook {
+            background: #1877f2;
+            color: white;
+        }
+
+        .platform-badge.instagram {
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+            color: white;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            margin-left: 10px;
+        }
+
+        .results {
+            margin-top: 30px;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .results-header h2 {
+            color: #333;
+        }
+
+        .count-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .profile-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-card .name {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+            word-wrap: break-word;
+        }
+
+        .profile-card .link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .profile-card .link:hover {
+            text-decoration: underline;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .info-box h3 {
+            color: #1976D2;
+            margin-bottom: 8px;
+        }
+
+        .info-box ol {
+            margin-left: 20px;
+            color: #333;
+        }
+
+        .info-box li {
+            margin: 5px 0;
+        }
+
+        .comparison-inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .navigation-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .nav-link {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: inline-block;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .comparison-inputs {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation-header" aria-label="Main navigation">
+            <a href="../../index.html" class="nav-link" aria-label="Return to homepage">← Home</a>
+            <a href="../index.html" class="nav-link" aria-label="Return to tools">← Back to Tools</a>
+        </nav>
+        <header role="banner">
+            <h1>Meta Extractor</h1>
+            <p>Analyze your Facebook & Instagram connections</p>
+        </header>
+
+        <main role="main">
+        <div class="card">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('fb-blocks')">
+                    Blocked Users <span class="platform-badge facebook">Facebook</span>
+                </button>
+                <button class="tab-btn" onclick="switchTab('ig-followers')">
+                    Followers <span class="platform-badge instagram">Instagram</span>
+                </button>
+                <button class="tab-btn" onclick="switchTab('ig-following')">
+                    Following <span class="platform-badge instagram">Instagram</span>
+                </button>
+                <button class="tab-btn" onclick="switchTab('ig-unfollowers')">
+                    Find Unfollowers <span class="platform-badge instagram">Instagram</span>
+                </button>
+            </div>
+
+            <!-- Facebook Blocks Tab -->
+            <div id="fb-blocks" class="tab-content active">
+                <div class="info-box">
+                    <h3>Facebook Blocked Users - How to use:</h3>
+                    <ol>
+                        <li>Download your Facebook data (Settings → Privacy → Download Your Information)</li>
+                        <li>Select "Blocked Users" and download as HTML</li>
+                        <li>Open the HTML file and copy all content</li>
+                        <li>Paste it below and click "Extract Data"</li>
+                    </ol>
+                </div>
+                <textarea id="fbBlocksInput" placeholder="Paste your Facebook blocked users HTML here..."></textarea>
+                <button class="btn" onclick="extractFacebookBlocks()">Extract Data</button>
+                <button class="btn btn-secondary" onclick="clearResults('fb-blocks')">Clear</button>
+                <div id="fbBlocksResults" class="results"></div>
+            </div>
+
+            <!-- Instagram Followers Tab -->
+            <div id="ig-followers" class="tab-content">
+                <div class="info-box">
+                    <h3>Instagram Followers - How to use:</h3>
+                    <ol>
+                        <li>Download your Instagram data (Settings → Security → Download Data)</li>
+                        <li>Extract and open the followers HTML file</li>
+                        <li>Copy all content and paste below</li>
+                        <li>Click "Extract Data"</li>
+                    </ol>
+                </div>
+                <textarea id="igFollowersInput" placeholder="Paste your Instagram followers HTML here..."></textarea>
+                <button class="btn" onclick="extractInstagramFollowers()">Extract Data</button>
+                <button class="btn btn-secondary" onclick="clearResults('ig-followers')">Clear</button>
+                <div id="igFollowersResults" class="results"></div>
+            </div>
+
+            <!-- Instagram Following Tab -->
+            <div id="ig-following" class="tab-content">
+                <div class="info-box">
+                    <h3>Instagram Following - How to use:</h3>
+                    <ol>
+                        <li>Download your Instagram data</li>
+                        <li>Open the following/followings HTML file</li>
+                        <li>Copy all content and paste below</li>
+                        <li>Click "Extract Data"</li>
+                    </ol>
+                </div>
+                <textarea id="igFollowingInput" placeholder="Paste your Instagram following HTML here..."></textarea>
+                <button class="btn" onclick="extractInstagramFollowing()">Extract Data</button>
+                <button class="btn btn-secondary" onclick="clearResults('ig-following')">Clear</button>
+                <div id="igFollowingResults" class="results"></div>
+            </div>
+
+            <!-- Instagram Unfollowers Tab -->
+            <div id="ig-unfollowers" class="tab-content">
+                <div class="info-box">
+                    <h3>Find Instagram Unfollowers - How to use:</h3>
+                    <ol>
+                        <li>Paste your Following HTML in the left box</li>
+                        <li>Paste your Followers HTML in the right box</li>
+                        <li>Click "Find Unfollowers" to see who doesn't follow you back</li>
+                    </ol>
+                </div>
+                <div class="comparison-inputs">
+                    <div>
+                        <h3 style="margin-bottom: 10px;">Following</h3>
+                        <textarea id="unfollowersFollowingInput" placeholder="Paste your Following HTML here..."></textarea>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 10px;">Followers</h3>
+                        <textarea id="unfollowersFollowersInput" placeholder="Paste your Followers HTML here..."></textarea>
+                    </div>
+                </div>
+                <button class="btn" onclick="findInstagramUnfollowers()">Find Unfollowers</button>
+                <button class="btn btn-secondary" onclick="clearResults('ig-unfollowers')">Clear</button>
+                <div id="igUnfollowersResults" class="results"></div>
+            </div>
+        </div>
+        </main>
+    </div>
+
+    <script>
+        // Store extracted data
+        let extractedData = {
+            fbBlocks: [],
+            igFollowers: [],
+            igFollowing: [],
+            igUnfollowers: []
+        };
+
+        // Switch between tabs
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Parse Facebook blocked users (from blocks.html)
+        function parseFacebookBlocks(html) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const profiles = [];
+
+            // Facebook blocked users are in divs with class x1obq294 (and other classes)
+            const userContainers = doc.querySelectorAll('.x1obq294');
+
+            userContainers.forEach(container => {
+                // Extract name from span
+                const nameSpan = container.querySelector('span[id^="_r"]');
+                if (!nameSpan) return;
+                const name = nameSpan.textContent.trim();
+                if (!name || name.length === 0) return;
+
+                // Extract image - try SVG image first, then img tag
+                let imgUrl = '';
+                const svgImage = container.querySelector('image[xlink\\:href]');
+                if (svgImage) {
+                    imgUrl = svgImage.getAttribute('xlink:href');
+                } else {
+                    const imgTag = container.querySelector('img');
+                    if (imgTag) {
+                        imgUrl = imgTag.src || imgTag.getAttribute('src');
+                    }
+                }
+
+                // Extract profile link
+                let profileLink = '#';
+                const linkTag = container.querySelector('a[href]');
+                if (linkTag) {
+                    const href = linkTag.getAttribute('href');
+                    if (href && href.includes('facebook.com')) {
+                        profileLink = href;
+                    }
+                }
+
+                profiles.push({
+                    name: name,
+                    imgUrl: imgUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=120&background=667eea&color=fff`,
+                    profileLink: profileLink
+                });
+            });
+
+            return profiles;
+        }
+
+        // Parse Instagram followers/following (from followers.html or followings.html)
+        // Dedup by username slug and prefer the full display name (e.g., "Sarra Ben Rejeb")
+        function parseInstagramProfiles(html) {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+
+          const profiles = [];
+          const seenUsernames = new Set();
+
+          // Find profile anchors and extract the username slug from href
+          const anchors = doc.querySelectorAll('a[href^="/"]');
+
+          anchors.forEach(link => {
+            const href = link.getAttribute('href') || '';
+            const m = href.match(/^\/([A-Za-z0-9._]+)(?:\/|$)/);
+            if (!m) return;
+
+            const usernameSlug = m[1];
+            const usernameKey = usernameSlug.toLowerCase();
+            if (seenUsernames.has(usernameKey)) return;
+
+            // Use the closest container to search for display name and image
+            const container = link.closest('.html-div') || link.closest('div') || doc;
+
+            // Prefer a human-readable display name (e.g., "First Last") over the slug
+            let displayName = null;
+            const spanTexts = Array.from(container.querySelectorAll('span'))
+              .map(el => (el.textContent || '').trim())
+              .filter(Boolean);
+
+            const filtered = spanTexts.filter(t =>
+              t.toLowerCase() !== usernameKey &&           // not the slug
+              !/^(follow|following)$/i.test(t)             // not button labels
+            );
+
+            // Prefer text with spaces (likely "First Last"), else any readable text
+            displayName = filtered.find(t => /\s/.test(t)) || filtered.find(t => /[A-Za-z]/.test(t));
+            if (!displayName) displayName = usernameSlug;
+
+            // Try to get the profile image
+            let imgUrl = '';
+            const img =
+              container.querySelector(`img[alt="${usernameSlug}'s profile picture"]`) ||
+              link.querySelector('img[alt]');
+            if (img) {
+              imgUrl = img.getAttribute('src') || img.src || '';
+            }
+
+            const profileLink = href.startsWith('http') ? href : `https://www.instagram.com${href}`;
+
+            profiles.push({
+              name: displayName,
+              imgUrl: imgUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&size=120&background=e4405f&color=fff`,
+              profileLink
+            });
+
+            seenUsernames.add(usernameKey);
+          });
+
+          return profiles;
+        }
+
+// Display profiles in a grid (no base64 conversion, uses imgUrl directly)
+async function displayProfiles(profiles, containerId, title) {
+  const container = document.getElementById(containerId);
+
+  if (!profiles || profiles.length === 0) {
+    container.innerHTML = '<div class="no-results">No profiles found. Please check your HTML format.</div>';
+    return;
+  }
+
+  let html = `
+    <div class="results-header">
+      <h2>${title}</h2>
+      <span class="count-badge">${profiles.length} ${profiles.length === 1 ? 'person' : 'people'}</span>
+    </div>
+    <div style="margin-bottom: 15px;">
+      <button class="btn" onclick="downloadHTMLFile('${containerId}', '${title}')">Download as HTML</button>
+    </div>
+    <div class="grid" id="grid-${containerId}">
+  `;
+
+  profiles.forEach(profile => {
+    const escapedName = profile.name.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    const profileLink = profile.profileLink || '#';
+    html += `
+      <div class="profile-card" onclick="window.open('${profileLink}', '_blank')">
+        <img src="${profile.imgUrl}" alt="${escapedName}"
+             onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(profile.name.substring(0, 2))}&size=120&background=667eea&color=fff'">
+        <div class="name">${profile.name}</div>
+        ${profileLink !== '#' ? `<a class="link" href="${profileLink}" target="_blank" onclick="event.stopPropagation()">View Profile</a>` : ''}
+      </div>
+    `;
+  });
+
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+        // Download results as HTML file (like the Python script did)
+        function downloadHTMLFile(containerId, title) {
+            const gridElement = document.getElementById('grid-' + containerId);
+            if (!gridElement) {
+                alert('No results to download');
+                return;
+            }
+
+            const htmlContent = `
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>${title}</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fafafa; padding: 20px; }
+        h1 { text-align: center; color: #333; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .profile-card { background: white; border-radius: 12px; padding: 20px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        .profile-card img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
+        .profile-card .name { font-weight: 600; color: #333; margin-bottom: 5px; }
+        .profile-card .link { color: #667eea; text-decoration: none; font-size: 0.9rem; }
+        .profile-card .link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>${title}</h1>
+    <div class="grid">
+        ${gridElement.innerHTML}
+    </div>
+</body>
+</html>
+            `;
+
+            const blob = new Blob([htmlContent], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = title.toLowerCase().replace(/\s+/g, '-') + '.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        // Extract Facebook blocked users
+        async function extractFacebookBlocks() {
+            const input = document.getElementById('fbBlocksInput').value;
+            if (!input.trim()) {
+                alert('Please paste HTML content first');
+                return;
+            }
+
+            extractedData.fbBlocks = parseFacebookBlocks(input);
+            await displayProfiles(extractedData.fbBlocks, 'fbBlocksResults', 'Facebook Blocked Users', true);
+        }
+
+        // Extract Instagram followers
+        async function extractInstagramFollowers() {
+            const input = document.getElementById('igFollowersInput').value;
+            if (!input.trim()) {
+                alert('Please paste HTML content first');
+                return;
+            }
+
+            extractedData.igFollowers = parseInstagramProfiles(input);
+            await displayProfiles(extractedData.igFollowers, 'igFollowersResults', 'Instagram Followers', true);
+        }
+
+        // Extract Instagram following
+        async function extractInstagramFollowing() {
+            const input = document.getElementById('igFollowingInput').value;
+            if (!input.trim()) {
+                alert('Please paste HTML content first');
+                return;
+            }
+
+            extractedData.igFollowing = parseInstagramProfiles(input);
+            await displayProfiles(extractedData.igFollowing, 'igFollowingResults', 'Instagram Following', true);
+        }
+
+        // Find Instagram unfollowers
+        async function findInstagramUnfollowers() {
+            const followingInput = document.getElementById('unfollowersFollowingInput').value;
+            const followersInput = document.getElementById('unfollowersFollowersInput').value;
+
+            if (!followingInput.trim() || !followersInput.trim()) {
+                alert('Please paste both Following and Followers HTML content');
+                return;
+            }
+
+            const following = parseInstagramProfiles(followingInput);
+            const followers = parseInstagramProfiles(followersInput);
+
+            // Create a set of follower names (normalized)
+            const followerNames = new Set(
+                followers.map(f => f.name.toLowerCase().trim())
+            );
+
+            // Find people you follow who don't follow you back
+            extractedData.igUnfollowers = following.filter(
+                person => !followerNames.has(person.name.toLowerCase().trim())
+            );
+
+            await displayProfiles(extractedData.igUnfollowers, 'igUnfollowersResults', 'Instagram Unfollowers (People who don\'t follow you back)', true);
+        }
+
+        // Clear results
+        function clearResults(type) {
+            if (type === 'ig-unfollowers') {
+                document.getElementById('unfollowersFollowingInput').value = '';
+                document.getElementById('unfollowersFollowersInput').value = '';
+                document.getElementById('igUnfollowersResults').innerHTML = '';
+                extractedData.igUnfollowers = [];
+            } else if (type === 'fb-blocks') {
+                document.getElementById('fbBlocksInput').value = '';
+                document.getElementById('fbBlocksResults').innerHTML = '';
+                extractedData.fbBlocks = [];
+            } else if (type === 'ig-followers') {
+                document.getElementById('igFollowersInput').value = '';
+                document.getElementById('igFollowersResults').innerHTML = '';
+                extractedData.igFollowers = [];
+            } else if (type === 'ig-following') {
+                document.getElementById('igFollowingInput').value = '';
+                document.getElementById('igFollowingResults').innerHTML = '';
+                extractedData.igFollowing = [];
+            }
+        }
+    </script>
+</body>
+</html>
