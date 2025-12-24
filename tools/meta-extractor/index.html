@@ -200,8 +200,8 @@
         }
 
         .profile-card img {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 15px;
@@ -288,6 +288,13 @@
             transform: translateY(-2px);
         }
 
+        .loading {
+            display: inline-block;
+            margin-left: 10px;
+            color: #667eea;
+            font-weight: 500;
+        }
+
         @media (max-width: 768px) {
             .comparison-inputs {
                 grid-template-columns: 1fr;
@@ -345,6 +352,7 @@
                 <textarea id="fbBlocksInput" placeholder="Paste your Facebook blocked users HTML here..."></textarea>
                 <button class="btn" onclick="extractFacebookBlocks()">Extract Data</button>
                 <button class="btn btn-secondary" onclick="clearResults('fb-blocks')">Clear</button>
+                <span id="loadingIndicator" class="loading" style="display: none;">Processing images...</span>
                 <div id="fbBlocksResults" class="results"></div>
             </div>
 
@@ -432,31 +440,123 @@
             event.target.classList.add('active');
         }
 
-        // Parse Facebook blocked users (from blocks.html)
-        function parseFacebookBlocks(html) {
+        // Convert image URL to base64 with CORS proxy support
+        async function imageUrlToBase64(url) {
+            try {
+                console.log(`Attempting to fetch: ${url}`);
+                
+                // Try direct fetch first
+                let response = await fetch(url, {
+                    mode: 'cors',
+                    credentials: 'omit'
+                });
+                
+                if (!response.ok) {
+                    console.log(`Direct fetch failed (${response.status}), trying with CORS proxy...`);
+                    // If direct fetch fails due to CORS, try with a CORS proxy
+                    response = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`);
+                }
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const blob = await response.blob();
+                console.log(`Blob created, size: ${blob.size}`);
+                
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onloadend = () => {
+                        console.log('Base64 conversion successful');
+                        resolve(reader.result);
+                    };
+                    reader.onerror = () => {
+                        console.error('FileReader error');
+                        reject(reader.error);
+                    };
+                    reader.readAsDataURL(blob);
+                });
+            } catch (error) {
+                console.error('Error converting image:', error);
+                return null;
+            }
+        }
+
+        // Parse Facebook blocked users (from blocks.html) - FIXED IMAGE EXTRACTION
+        async function parseFacebookBlocks(html) {
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
             const profiles = [];
 
-            // Facebook blocked users are in divs with class x1obq294 (and other classes)
+            // Facebook blocked users are in divs with class x1obq294
             const userContainers = doc.querySelectorAll('.x1obq294');
 
-            userContainers.forEach(container => {
+            console.log(`Found ${userContainers.length} user containers`);
+
+            for (const container of userContainers) {
                 // Extract name from span
                 const nameSpan = container.querySelector('span[id^="_r"]');
-                if (!nameSpan) return;
+                if (!nameSpan) {
+                    console.log('No name span found, skipping...');
+                    continue;
+                }
                 const name = nameSpan.textContent.trim();
-                if (!name || name.length === 0) return;
+                if (!name || name.length === 0) {
+                    console.log('Empty name, skipping...');
+                    continue;
+                }
 
-                // Extract image - try SVG image first, then img tag
+                console.log(`Processing user: ${name}`);
+
+                // Extract image - Look for SVG image tag with xlink:href (like Python script)
                 let imgUrl = '';
-                const svgImage = container.querySelector('image[xlink\\:href]');
+                
+                // First try: SVG image with xlink:href
+                const svgImage = container.querySelector('image[*|href]');
                 if (svgImage) {
-                    imgUrl = svgImage.getAttribute('xlink:href');
-                } else {
+                    imgUrl = svgImage.getAttributeNS('http://www.w3.org/1999/xlink', 'href') || 
+                             svgImage.getAttribute('xlink:href') ||
+                             svgImage.getAttribute('href');
+                    console.log(`Found SVG image: ${imgUrl}`);
+                }
+
+                // Second try: Look in all SVG images
+                if (!imgUrl) {
+                    const allSvgImages = container.querySelectorAll('svg image');
+                    for (const img of allSvgImages) {
+                        const href = img.getAttributeNS('http://www.w3.org/1999/xlink', 'href') || 
+                                    img.getAttribute('xlink:href') ||
+                                    img.getAttribute('href');
+                        if (href && href.startsWith('http')) {
+                            imgUrl = href;
+                            console.log(`Found SVG image (alt method): ${imgUrl}`);
+                            break;
+                        }
+                    }
+                }
+
+                // Third try: regular img tag
+                if (!imgUrl) {
                     const imgTag = container.querySelector('img');
                     if (imgTag) {
                         imgUrl = imgTag.src || imgTag.getAttribute('src');
+                        console.log(`Found img tag: ${imgUrl}`);
+                    }
+                }
+
+                console.log(`Final image URL for ${name}: ${imgUrl || 'NOT FOUND'}`);
+
+                // Convert image to base64 if found (like Python script does)
+                let finalImageUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=150&background=667eea&color=fff`;
+                
+                if (imgUrl && (imgUrl.startsWith('http://') || imgUrl.startsWith('https://'))) {
+                    console.log(`Converting image to base64 for ${name}...`);
+                    const base64Image = await imageUrlToBase64(imgUrl);
+                    if (base64Image) {
+                        finalImageUrl = base64Image;
+                        console.log(`Successfully converted image for ${name}`);
+                    } else {
+                        console.log(`Failed to convert image for ${name}, using fallback`);
                     }
                 }
 
@@ -472,16 +572,16 @@
 
                 profiles.push({
                     name: name,
-                    imgUrl: imgUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=120&background=667eea&color=fff`,
+                    imgUrl: finalImageUrl,
                     profileLink: profileLink
                 });
-            });
+            }
 
+            console.log(`Total profiles extracted: ${profiles.length}`);
             return profiles;
         }
 
         // Parse Instagram followers/following (from followers.html or followings.html)
-        // Dedup by username slug and prefer the full display name (e.g., "Sarra Ben Rejeb")
         function parseInstagramProfiles(html) {
           const parser = new DOMParser();
           const doc = parser.parseFromString(html, 'text/html');
@@ -489,7 +589,6 @@
           const profiles = [];
           const seenUsernames = new Set();
 
-          // Find profile anchors and extract the username slug from href
           const anchors = doc.querySelectorAll('a[href^="/"]');
 
           anchors.forEach(link => {
@@ -501,25 +600,21 @@
             const usernameKey = usernameSlug.toLowerCase();
             if (seenUsernames.has(usernameKey)) return;
 
-            // Use the closest container to search for display name and image
             const container = link.closest('.html-div') || link.closest('div') || doc;
 
-            // Prefer a human-readable display name (e.g., "First Last") over the slug
             let displayName = null;
             const spanTexts = Array.from(container.querySelectorAll('span'))
               .map(el => (el.textContent || '').trim())
               .filter(Boolean);
 
             const filtered = spanTexts.filter(t =>
-              t.toLowerCase() !== usernameKey &&           // not the slug
-              !/^(follow|following)$/i.test(t)             // not button labels
+              t.toLowerCase() !== usernameKey &&
+              !/^(follow|following)$/i.test(t)
             );
 
-            // Prefer text with spaces (likely "First Last"), else any readable text
             displayName = filtered.find(t => /\s/.test(t)) || filtered.find(t => /[A-Za-z]/.test(t));
             if (!displayName) displayName = usernameSlug;
 
-            // Try to get the profile image
             let imgUrl = '';
             const img =
               container.querySelector(`img[alt="${usernameSlug}'s profile picture"]`) ||
@@ -532,7 +627,7 @@
 
             profiles.push({
               name: displayName,
-              imgUrl: imgUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&size=120&background=e4405f&color=fff`,
+              imgUrl: imgUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(displayName)}&size=150&background=e4405f&color=fff`,
               profileLink
             });
 
@@ -542,44 +637,44 @@
           return profiles;
         }
 
-// Display profiles in a grid (no base64 conversion, uses imgUrl directly)
-async function displayProfiles(profiles, containerId, title) {
-  const container = document.getElementById(containerId);
+        // Display profiles in a grid
+        async function displayProfiles(profiles, containerId, title) {
+          const container = document.getElementById(containerId);
 
-  if (!profiles || profiles.length === 0) {
-    container.innerHTML = '<div class="no-results">No profiles found. Please check your HTML format.</div>';
-    return;
-  }
+          if (!profiles || profiles.length === 0) {
+            container.innerHTML = '<div class="no-results">No profiles found. Please check your HTML format.</div>';
+            return;
+          }
 
-  let html = `
-    <div class="results-header">
-      <h2>${title}</h2>
-      <span class="count-badge">${profiles.length} ${profiles.length === 1 ? 'person' : 'people'}</span>
-    </div>
-    <div style="margin-bottom: 15px;">
-      <button class="btn" onclick="downloadHTMLFile('${containerId}', '${title}')">Download as HTML</button>
-    </div>
-    <div class="grid" id="grid-${containerId}">
-  `;
+          let html = `
+            <div class="results-header">
+              <h2>${title}</h2>
+              <span class="count-badge">${profiles.length} ${profiles.length === 1 ? 'person' : 'people'}</span>
+            </div>
+            <div style="margin-bottom: 15px;">
+              <button class="btn" onclick="downloadHTMLFile('${containerId}', '${title}')">Download as HTML</button>
+            </div>
+            <div class="grid" id="grid-${containerId}">
+          `;
 
-  profiles.forEach(profile => {
-    const escapedName = profile.name.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-    const profileLink = profile.profileLink || '#';
-    html += `
-      <div class="profile-card" onclick="window.open('${profileLink}', '_blank')">
-        <img src="${profile.imgUrl}" alt="${escapedName}"
-             onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(profile.name.substring(0, 2))}&size=120&background=667eea&color=fff'">
-        <div class="name">${profile.name}</div>
-        ${profileLink !== '#' ? `<a class="link" href="${profileLink}" target="_blank" onclick="event.stopPropagation()">View Profile</a>` : ''}
-      </div>
-    `;
-  });
+          profiles.forEach(profile => {
+            const escapedName = profile.name.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+            const profileLink = profile.profileLink || '#';
+            html += `
+              <div class="profile-card" onclick="window.open('${profileLink}', '_blank')">
+                <img src="${profile.imgUrl}" alt="${escapedName}"
+                     onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(profile.name.substring(0, 2))}&size=150&background=667eea&color=fff'">
+                <div class="name">${profile.name}</div>
+                ${profileLink !== '#' ? `<a class="link" href="${profileLink}" target="_blank" onclick="event.stopPropagation()">View Profile</a>` : ''}
+              </div>
+            `;
+          });
 
-  html += '</div>';
-  container.innerHTML = html;
-}
+          html += '</div>';
+          container.innerHTML = html;
+        }
 
-        // Download results as HTML file (like the Python script did)
+        // Download results as HTML file
         function downloadHTMLFile(containerId, title) {
             const gridElement = document.getElementById('grid-' + containerId);
             if (!gridElement) {
@@ -632,8 +727,18 @@ async function displayProfiles(profiles, containerId, title) {
                 return;
             }
 
-            extractedData.fbBlocks = parseFacebookBlocks(input);
-            await displayProfiles(extractedData.fbBlocks, 'fbBlocksResults', 'Facebook Blocked Users', true);
+            const loadingIndicator = document.getElementById('loadingIndicator');
+            loadingIndicator.style.display = 'inline-block';
+
+            try {
+                extractedData.fbBlocks = await parseFacebookBlocks(input);
+                await displayProfiles(extractedData.fbBlocks, 'fbBlocksResults', 'Facebook Blocked Users');
+            } catch (error) {
+                console.error('Error extracting Facebook blocks:', error);
+                alert('Error processing data. Please check the console for details.');
+            } finally {
+                loadingIndicator.style.display = 'none';
+            }
         }
 
         // Extract Instagram followers
@@ -645,7 +750,7 @@ async function displayProfiles(profiles, containerId, title) {
             }
 
             extractedData.igFollowers = parseInstagramProfiles(input);
-            await displayProfiles(extractedData.igFollowers, 'igFollowersResults', 'Instagram Followers', true);
+            await displayProfiles(extractedData.igFollowers, 'igFollowersResults', 'Instagram Followers');
         }
 
         // Extract Instagram following
@@ -657,7 +762,7 @@ async function displayProfiles(profiles, containerId, title) {
             }
 
             extractedData.igFollowing = parseInstagramProfiles(input);
-            await displayProfiles(extractedData.igFollowing, 'igFollowingResults', 'Instagram Following', true);
+            await displayProfiles(extractedData.igFollowing, 'igFollowingResults', 'Instagram Following');
         }
 
         // Find Instagram unfollowers
@@ -673,17 +778,15 @@ async function displayProfiles(profiles, containerId, title) {
             const following = parseInstagramProfiles(followingInput);
             const followers = parseInstagramProfiles(followersInput);
 
-            // Create a set of follower names (normalized)
             const followerNames = new Set(
                 followers.map(f => f.name.toLowerCase().trim())
             );
 
-            // Find people you follow who don't follow you back
             extractedData.igUnfollowers = following.filter(
                 person => !followerNames.has(person.name.toLowerCase().trim())
             );
 
-            await displayProfiles(extractedData.igUnfollowers, 'igUnfollowersResults', 'Instagram Unfollowers (People who don\'t follow you back)', true);
+            await displayProfiles(extractedData.igUnfollowers, 'igUnfollowersResults', 'Instagram Unfollowers (People who don\'t follow you back)');
         }
 
         // Clear results
