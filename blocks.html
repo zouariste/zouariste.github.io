@@ -8,17 +8,17 @@
     h1 { font-size: 24px; margin-bottom: 16px; }
     #search { width: 100%; padding: 10px 14px; font-size: 15px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; margin-bottom: 16px; outline: none; }
     #search:focus { border-color: #555; }
-    #count { font-size: 13px; color: #666; margin-bottom: 10px; }
-    ol { line-height: 2; }
+
+    ul { line-height: 2; list-style: none; padding: 0; margin: 0; }
     li.hidden { display: none; }
     mark { background: #ffe066; border-radius: 2px; }
   </style>
 </head>
 <body>
-  <h1>Blocked Names (308)</h1>
+  <h1>Soufa, hedhom list blocks</h1>
   <input type="text" id="search" placeholder="Search names..." oninput="filterList(this.value)" autofocus>
-  <div id="count"></div>
-  <ol id="list">
+
+  <ul id="list">
     <li>Ahlem Fitouri</li>
     <li>Ahlem Naceur</li>
     <li>Ahmed Ahmed Haroun Haroun</li>
@@ -405,27 +405,23 @@
     <li>مريوما مريم</li>
     <li>ميلاء بالكيلاني</li>
     <li>ﺍﻟﻤﺠﻬﻮﻝ ﺷﺨﺼﻴﺎ</li>
-  </ol>
+  </ul>
 
   <script>
     var items = document.querySelectorAll('#list li');
-    var countEl = document.getElementById('count');
 
     function filterList(query) {
       var q = query.trim().toLowerCase();
-      var visible = 0;
       items.forEach(function(li) {
         var text = li.textContent;
         if (!q || text.toLowerCase().includes(q)) {
           li.classList.remove('hidden');
           li.innerHTML = q ? text.replace(new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'), '<mark>$1</mark>') : text;
-          visible++;
         } else {
           li.classList.add('hidden');
           li.innerHTML = text;
         }
       });
-      countEl.textContent = q ? 'Showing ' + visible + ' of 308' : '';
     }
   </script>
 </body>
