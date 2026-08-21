@@ -29,6 +29,7 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
+  - tools
 
 # Collections (if needed for blog posts in the future)
 # collections:
