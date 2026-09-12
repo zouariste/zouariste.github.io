@@ -10,6 +10,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #
 header { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
 header h1 { font-size: 1.3rem; font-weight: 700; color: #fff; }
 .stats { font-size: 0.82rem; color: rgba(255,255,255,0.9); font-weight: 600; }
+.count-bar { display: flex; gap: 16px; padding: 20px 24px; background: #111; border-bottom: 1px solid #2a2a2a; flex-wrap: wrap; }
+.count-tile { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 14px 24px; min-width: 120px; text-align: center; }
+.count-tile .num { font-size: 2.4rem; font-weight: 800; line-height: 1; }
+.count-tile .lbl { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-top: 4px; }
 .rel-panel { background: #161616; border-bottom: 2px solid #2a2a2a; padding: 14px 24px; }
 .rel-panel-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 10px; font-weight: 600; }
 .rel-types { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; min-height: 30px; }
@@ -47,6 +51,13 @@ header h1 { font-size: 1.3rem; font-weight: 700; color: #fff; }
   <h1>Followers Audit</h1>
   <span class="stats" id="stats"></span>
 </header>
+<div class="count-bar">
+  <div class="count-tile"><div class="num" id="cnt-total" style="color:#fcb045"></div><div class="lbl">Total</div></div>
+  <div class="count-tile"><div class="num" id="cnt-shown" style="color:#4a9eff"></div><div class="lbl">Shown</div></div>
+  <div class="count-tile"><div class="num" id="cnt-tagged" style="color:#2ecc71"></div><div class="lbl">Tagged</div></div>
+  <div class="count-tile"><div class="num" id="cnt-female" style="color:#fd1d1d"></div><div class="lbl">Female</div></div>
+  <div class="count-tile"><div class="num" id="cnt-male" style="color:#833ab4"></div><div class="lbl">Male</div></div>
+</div>
 <div class="rel-panel">
   <div class="rel-panel-title">Relation Types — define your categories</div>
   <div class="rel-types" id="relTypes"></div>
@@ -194,6 +205,11 @@ function render() {
     grid.appendChild(div);
   });
   document.getElementById('stats').textContent = shown + ' shown · ' + tagged + ' tagged · ' + female + ' female';
+  document.getElementById('cnt-total').textContent = DATA.length;
+  document.getElementById('cnt-shown').textContent = shown;
+  document.getElementById('cnt-tagged').textContent = tagged;
+  document.getElementById('cnt-female').textContent = female;
+  document.getElementById('cnt-male').textContent = DATA.filter(function(p){ return g(p.username) === 'M'; }).length;
 }
 
 function exportCSV() {

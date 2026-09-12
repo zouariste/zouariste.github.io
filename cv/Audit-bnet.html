@@ -87,10 +87,19 @@
                 color: #888;
                 font-size: 1.05rem;
             }
+        
+            .count-bar { display: flex; gap: 12px; padding: 20px 5vw; background: #111; border-bottom: 1px solid #2a2a2a; flex-wrap: wrap; }
+            .count-tile { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 14px 22px; min-width: 100px; text-align: center; }
+            .count-tile .num { font-size: 2.4rem; font-weight: 800; line-height: 1; color: #fcb045; }
+            .count-tile .lbl { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-top: 4px; }
         </style>
     </head>
     <body>
         <h1>Followers Report</h1>
+        <div class="count-bar">
+          <div class="count-tile"><div class="num">80</div><div class="lbl">Total</div></div>
+          <div class="count-tile"><div class="num">7</div><div class="lbl">Groups</div></div>
+        </div>
         <div id="search-wrap">
             <input type="text" id="search-input" placeholder="Search @username…" autocomplete="off" />
         </div>
